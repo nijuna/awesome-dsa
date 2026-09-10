@@ -120,7 +120,7 @@ Legend:
 - [ ] `bitmask-and-state-compression.md`
 
 ### [19] Problem-Solving Patterns
-- [ ] `two-pointers.md`
+- [x] [`two-pointers.md`](docs/19-problem-solving-patterns/two-pointers.md)
 - [x] [`sliding-window.md`](docs/19-problem-solving-patterns/sliding-window.md)
 - [ ] `monotonic-stack-and-queue.md`
 - [ ] `interval-scheduling.md`
