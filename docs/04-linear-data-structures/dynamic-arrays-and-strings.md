@@ -135,6 +135,18 @@ For dynamic strings, these invariants are identical, with the element type usual
 | `Erase(pos)` | $O(n)$ | $O(n)$ | $O(1)$ | Shift suffix left |
 | Sequential iteration | $O(n)$ | $O(n)$ | $O(1)$ | Cache-friendly stream traversal |
 
+### State Transition Summary
+
+- **Append without growth ($n < c$)**:
+  1. Write new element into `data[size]`.
+  2. Increment `size` ($\Delta \Phi = +2$ virtual credits stored).
+- **Append with growth ($n = c$)**:
+  1. Allocate larger contiguous buffer of physical capacity $\lceil g \cdot c \rceil$.
+  2. Move or copy $n$ existing elements into the new block.
+  3. Deallocate the old memory block.
+  4. Update `data` pointer and physical `capacity`.
+  5. Write the new element into `data[size]` and increment `size`.
+
 ---
 
 ## 5. The Amortized Math: Why Geometric Growth Works
@@ -506,6 +518,7 @@ std::vector<T>(vec).swap(vec);
 | **[LeetCode 622 — Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)** | LeetCode | Medium | Contiguous circular buffer indexing without resizing |
 | **[LeetCode 641 — Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)** | LeetCode | Medium | Bidirectional contiguous buffer management |
 | **[LeetCode 443 — String Compression](https://leetcode.com/problems/string-compression/)** | LeetCode | Medium | In-place contiguous string buffer compaction |
+| **[LeetCode 271 — Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)** | LeetCode | Medium | Serialization and contiguous string buffer sizing |
 
 ---
 
