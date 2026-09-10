@@ -70,7 +70,7 @@ Legend:
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - [ ] `order-statistic-trees.md`
 - [ ] `interval-trees.md`
-- [ ] `segment-trees.md`
+- [x] [`segment-trees.md`](docs/05-trees-and-hierarchical-structures/segment-trees.md)
 - [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
 - [ ] `tries-and-radix-trees.md`
 
