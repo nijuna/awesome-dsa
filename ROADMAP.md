@@ -67,7 +67,7 @@ Legend:
 - [ ] `splay-trees.md`
 - [ ] `treaps.md`
 - [ ] `scapegoat-and-aa-trees.md`
-- [ ] `b-trees-and-b-plus-trees.md`
+- [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - [ ] `order-statistic-trees.md`
 - [ ] `interval-trees.md`
 - [ ] `segment-trees.md`
