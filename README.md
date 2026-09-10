@@ -1,7 +1,7 @@
-# Awesome DSA [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-dsa
+### The Open Encyclopedia and Engineering Handbook for Data Structures and Algorithms
 
-> The open-source encyclopedia and engineering handbook for **Data Structures & Algorithms**.  
-> Bridging mathematical foundations, algorithmic paradigms, CPU hardware realities, and production systems architecture.
+> A comprehensive open-source reference for learning, implementing, and applying data structures and algorithms — from fundamentals and mathematical proofs to systems architecture, hardware performance, and real-world engineering.
 
 ---
 
