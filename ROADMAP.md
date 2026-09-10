@@ -209,7 +209,7 @@ Legend:
 ### [22] Benchmarking & Tradeoffs
 - [ ] `theoretical-vs-practical-performance.md`
 - [ ] `benchmark-design.md`
-- [ ] `choosing-the-right-data-structure.md`
+- [x] [`choosing-the-right-data-structure.md`](docs/22-benchmarking-and-tradeoffs/choosing-the-right-data-structure.md)
 
 ### [23] Classics & Papers
 - [ ] `classic-papers-reading-list.md`
