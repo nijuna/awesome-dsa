@@ -91,7 +91,7 @@ Legend:
 - [ ] `consistent-hashing.md`
 - [x] [`bloom-and-cuckoo-filters.md`](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
 - [ ] `hyperloglog.md`
-- [ ] `skip-lists.md`
+- [x] [`skip-lists.md`](docs/07-hashing-randomization-and-probabilistic/skip-lists.md)
 
 ### [08] Graphs & Network Algorithms
 - [ ] `graph-representations.md`
