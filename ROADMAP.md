@@ -51,7 +51,7 @@ Legend:
 
 ### [04] Linear Data Structures
 - [ ] `arrays-and-memory-layout.md`
-- [ ] `dynamic-arrays-and-strings.md`
+- [x] [`dynamic-arrays-and-strings.md`](docs/04-linear-data-structures/dynamic-arrays-and-strings.md)
 - [ ] `linked-lists.md`
 - [ ] `stacks-and-queues.md`
 - [ ] `deques.md`
