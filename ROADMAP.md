@@ -55,7 +55,7 @@ Legend:
 - [x] [`linked-lists.md`](docs/04-linear-data-structures/linked-lists.md)
 - [ ] `stacks-and-queues.md`
 - [ ] `deques.md`
-- [ ] `ring-buffers.md`
+- [x] [`ring-buffers.md`](docs/04-linear-data-structures/ring-buffers.md)
 - [ ] `ropes-gap-buffers-piece-tables.md`
 - [ ] `bitsets-and-bitvectors.md`
 - [ ] `disjoint-set-union.md`
