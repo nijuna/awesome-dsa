@@ -89,7 +89,7 @@ Legend:
 - [x] [`hash-tables-and-collisions.md`](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
 - [ ] `robin-hood-cuckoo-and-hopscotch-hashing.md`
 - [ ] `consistent-hashing.md`
-- [ ] `bloom-and-cuckoo-filters.md`
+- [x] [`bloom-and-cuckoo-filters.md`](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
 - [ ] `hyperloglog.md`
 - [ ] `skip-lists.md`
 
