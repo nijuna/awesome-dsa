@@ -207,7 +207,7 @@ Legend:
 - [ ] `fuzzing-and-property-testing.md`
 
 ### [22] Benchmarking & Tradeoffs
-- [ ] `theoretical-vs-practical-performance.md`
+- [x] [`theoretical-vs-practical-performance.md`](docs/22-benchmarking-and-tradeoffs/theoretical-vs-practical-performance.md)
 - [ ] `benchmark-design.md`
 - [x] [`choosing-the-right-data-structure.md`](docs/22-benchmarking-and-tradeoffs/choosing-the-right-data-structure.md)
 
