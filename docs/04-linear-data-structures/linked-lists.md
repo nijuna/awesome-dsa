@@ -230,7 +230,39 @@ When key $K$ is accessed:
 
 ---
 
-## 7. Cache Misses, TLB Pressure & Hardware Reality
+## 7. Key Operations & Complexity
+
+| Operation | Average Case | Worst Case | Space (Auxiliary) | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| `PushFront(x)` | $O(1)$ | $O(1)$ | $O(1)$ | Prepend node at head |
+| `PushBack(x)` (with tail) | $O(1)$ | $O(1)$ | $O(1)$ | Append node at tail |
+| `InsertAfter(node, x)` | $O(1)$ | $O(1)$ | $O(1)$ | Insert immediately after known node |
+| `Erase(node)` (doubly linked) | $O(1)$ | $O(1)$ | $O(1)$ | Unlink and deallocate known node |
+| `Find(value)` | $O(n)$ | $O(n)$ | $O(1)$ | Linear pointer traversal until match |
+| `Index(i)` | $O(n)$ | $O(n)$ | $O(1)$ | Pointer chasing through $i$ links |
+| `Splice(pos, other, node)` | $O(1)$ | $O(1)$ | $O(1)$ | Transfer node between lists via pointer rewiring |
+| Traversal | $O(n)$ | $O(n)$ | $O(1)$ | Pointer-chasing iteration across heap nodes |
+
+### State Transition Mechanics
+
+- **Insertion After Known Node $x$**:
+  1. Allocate new node $y$.
+  2. Set $y.\text{next} = x.\text{next}$.
+  3. If doubly linked, set $x.\text{next}.\text{prev} = y$ and $y.\text{prev} = x$.
+  4. Set $x.\text{next} = y$.
+- **Deletion of Known Node $x$ in Doubly Linked List**:
+  1. Let $p = x.\text{prev}$ and $q = x.\text{next}$.
+  2. Set $p.\text{next} = q$.
+  3. Set $q.\text{prev} = p$.
+  4. Deallocate $x$ (or return to memory pool).
+- **$O(1)$ Splice**:
+  1. Detach node from source list by linking its neighbors together.
+  2. Splice node before target position in destination list.
+  3. Zero payload copies; zero heap allocations.
+
+---
+
+## 8. Cache Misses, TLB Pressure & Hardware Reality
 
 ### Pointer Chasing vs. Hardware Streaming Prefetchers
 
