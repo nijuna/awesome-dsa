@@ -101,7 +101,7 @@ Legend:
 - [ ] `all-pairs-shortest-paths.md`
 - [ ] `minimum-spanning-trees.md`
 - [ ] `strongly-connected-components.md`
-- [ ] `lowest-common-ancestor.md`
+- [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 
 ### [09] Algorithm Design Paradigms
 - [ ] `recursion-and-backtracking.md`
