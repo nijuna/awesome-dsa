@@ -71,7 +71,7 @@ Legend:
 - [ ] `order-statistic-trees.md`
 - [ ] `interval-trees.md`
 - [ ] `segment-trees.md`
-- [ ] `fenwick-trees.md`
+- [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
 - [ ] `tries-and-radix-trees.md`
 
 ### [06] Heaps, Priority & Selection
