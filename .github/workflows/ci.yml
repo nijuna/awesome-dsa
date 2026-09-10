@@ -1,0 +1,35 @@
+name: CI - Verified Implementations
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-python:
+    name: Python Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run Python Tests
+        run: |
+          python3 -m unittest discover -s implementations/python -p "*.py"
+
+  test-cpp:
+    name: C++17 Test Suite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile and Run C++ Implementations
+        run: |
+          for f in implementations/cpp/*.cpp; do
+            echo "Compiling and running $f..."
+            g++ -std=c++17 -O3 -Wall -Wextra -Werror "$f" -o /tmp/test_runner
+            /tmp/test_runner
+            rm /tmp/test_runner
+          done
