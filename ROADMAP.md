@@ -76,7 +76,7 @@ Legend:
 
 ### [06] Heaps, Priority & Selection
 - [x] [`binary-heaps.md`](docs/06-heaps-priority-and-selection/binary-heaps.md)
-- [ ] `d-ary-heaps.md`
+- [x] [`d-ary-heaps.md`](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
 - [ ] `binomial-heaps.md`
 - [ ] `fibonacci-heaps.md`
 - [ ] `pairing-heaps.md`
