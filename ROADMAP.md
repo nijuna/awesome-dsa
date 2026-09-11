@@ -94,7 +94,7 @@ Legend:
 - [x] [`skip-lists.md`](docs/07-hashing-randomization-and-probabilistic/skip-lists.md)
 
 ### [08] Graphs & Network Algorithms
-- [ ] `graph-representations.md`
+- [x] [`graph-representations.md`](docs/08-graphs-and-network-algorithms/graph-representations.md)
 - [x] [`bfs-dfs-and-traversal-patterns.md`](docs/08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
 - [x] [`topological-sort.md`](docs/08-graphs-and-network-algorithms/topological-sort.md)
 - [x] [`shortest-paths.md`](docs/08-graphs-and-network-algorithms/shortest-paths.md)
