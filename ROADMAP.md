@@ -100,7 +100,7 @@ Legend:
 - [ ] `shortest-paths.md`
 - [ ] `all-pairs-shortest-paths.md`
 - [ ] `minimum-spanning-trees.md`
-- [ ] `strongly-connected-components.md`
+- [x] [`strongly-connected-components.md`](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
 - [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 
 ### [09] Algorithm Design Paradigms
