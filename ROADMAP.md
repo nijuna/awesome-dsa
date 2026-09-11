@@ -115,7 +115,7 @@ Legend:
 - [x] [`1d-and-2d-foundations.md`](docs/10-dynamic-programming/1d-and-2d-foundations.md)
 - [x] [`longest-increasing-subsequence.md`](docs/10-dynamic-programming/longest-increasing-subsequence.md)
 - [x] [`knapsack-family.md`](docs/10-dynamic-programming/knapsack-family.md)
-- [ ] `sequences-and-strings.md`
+- [x] [`edit-distance-and-sequence-alignment.md`](docs/10-dynamic-programming/edit-distance-and-sequence-alignment.md)
 - [ ] `interval-and-matrix-dp.md`
 - [ ] `tree-dp.md`
 - [ ] `bitmask-and-state-compression.md`
