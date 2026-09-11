@@ -58,7 +58,7 @@ Legend:
 - [x] [`ring-buffers.md`](docs/04-linear-data-structures/ring-buffers.md)
 - [ ] `ropes-gap-buffers-piece-tables.md`
 - [ ] `bitsets-and-bitvectors.md`
-- [ ] `disjoint-set-union.md`
+- [x] [`disjoint-set-union.md`](docs/04-linear-data-structures/disjoint-set-union.md)
 
 ### [05] Trees & Hierarchical Structures
 - [ ] `tree-basics-and-traversals.md`
