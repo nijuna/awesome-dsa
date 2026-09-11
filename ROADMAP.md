@@ -72,7 +72,7 @@ Legend:
 - [ ] `interval-trees.md`
 - [x] [`segment-trees.md`](docs/05-trees-and-hierarchical-structures/segment-trees.md)
 - [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
-- [ ] `tries-and-radix-trees.md`
+- [x] [`tries-and-radix-trees.md`](docs/05-trees-and-hierarchical-structures/tries-and-radix-trees.md)
 
 ### [06] Heaps, Priority & Selection
 - [ ] `binary-heaps.md`
