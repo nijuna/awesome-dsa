@@ -97,7 +97,7 @@ Legend:
 - [ ] `graph-representations.md`
 - [x] [`bfs-dfs-and-traversal-patterns.md`](docs/08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
 - [x] [`topological-sort.md`](docs/08-graphs-and-network-algorithms/topological-sort.md)
-- [ ] `shortest-paths.md`
+- [x] [`shortest-paths.md`](docs/08-graphs-and-network-algorithms/shortest-paths.md)
 - [ ] `all-pairs-shortest-paths.md`
 - [ ] `minimum-spanning-trees.md`
 - [x] [`strongly-connected-components.md`](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
