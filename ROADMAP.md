@@ -116,6 +116,7 @@ Legend:
 - [x] [`longest-increasing-subsequence.md`](docs/10-dynamic-programming/longest-increasing-subsequence.md)
 - [x] [`knapsack-family.md`](docs/10-dynamic-programming/knapsack-family.md)
 - [x] [`edit-distance-and-sequence-alignment.md`](docs/10-dynamic-programming/edit-distance-and-sequence-alignment.md)
+- [x] [`longest-common-subsequence.md`](docs/10-dynamic-programming/longest-common-subsequence.md)
 - [ ] `interval-and-matrix-dp.md`
 - [ ] `tree-dp.md`
 - [ ] `bitmask-and-state-compression.md`
