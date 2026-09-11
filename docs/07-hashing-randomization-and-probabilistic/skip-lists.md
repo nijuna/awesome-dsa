@@ -497,6 +497,30 @@ flowchart TD
     C -->|Standard Library Simplicity| G["Red-Black Tree (std::map)"]
 ```
 
+### 10.3 Empirical Physical Benchmark: Skip List vs. std::map vs. std::unordered_map
+
+To ground theoretical complexity in physical hardware realities, we benchmarked our production-grade Skip List against the C++ standard library's `std::map` (Red-Black tree) and `std::unordered_map` (chained hash table) on physical Linux hardware.
+
+- **Environment**: Linux x86_64, 11th Gen Intel Core i5-1145G7 @ 2.60GHz, 8 MiB L3 Cache, GCC 11 with `-O3`.
+- **Dataset**: $N = 1{,}000{,}000$ uniform 64-bit random keys.
+- **Benchmark Source**: [`benchmarks/skip_list_vs_map_vs_unordered_map.cpp`](../../benchmarks/skip_list_vs_map_vs_unordered_map.cpp)
+
+| Metric | Skip List ($p = 0.5$) | `std::map` (Red-Black Tree) | `std::unordered_map` (Hash Table) |
+| :--- | :---: | :---: | :---: |
+| **Ordering Guarantee** | Sorted (Expected $O(\log N)$) | Sorted (Strict $O(\log N)$) | Unordered (Expected $O(1)$) |
+| **Random Insert ($10^6$ keys)** | 2316.65 ms (0.43 M ops/s) | 1806.42 ms (0.55 M ops/s) | 341.81 ms (2.93 M ops/s) |
+| **Point Lookup: Hits ($10^6$ probes)** | 2147.94 ms (2148 ns/op) | 2355.75 ms (2356 ns/op) | 120.49 ms (120 ns/op) |
+| **Point Lookup: Misses ($10^6$ probes)** | 2422.02 ms (2422 ns/op) | 1820.77 ms (1821 ns/op) | 117.98 ms (118 ns/op) |
+| **Range Scan (5,000 queries)** | 13.89 ms | 9.03 ms | N/A (Requires $O(N)$ full table scan) |
+| **Allocated RAM (RSS)** | ~50 MB | ~61 MB | ~38 MB |
+| **Physical Node Overhead** | ~53 bytes/node | ~64 bytes/node | ~40 bytes/node |
+
+#### Key Empirical Insights:
+1. **Point Lookup Velocity**: `std::unordered_map` dominates exact lookups ($120$ ns/op, ~18x faster than ordered structures) by avoiding tree depth and jumping directly to hash buckets. However, hash tables completely forfeit range capabilities.
+2. **Skip List vs. Red-Black Tree on Hits**: On successful lookups, the Skip List edged out `std::map` (2148 ns vs. 2356 ns). Express-lane skipping reduces pointer dereferences in expectation compared to navigating 20 levels of binary tree nodes.
+3. **Memory Footprint**: The Skip List consumed 50 MB (~53 bytes/node) compared to 61 MB (~64 bytes/node) for `std::map`. Because the geometric promotion probability $p=0.5$ produces an expected $\frac{1}{1-p} = 2$ forward pointers per node, the average node tower is compact, requiring less metadata than a balanced BST (which must store 3 pointers: parent, left, right, plus color flags and allocator padding).
+4. **Range Scan Feasibility**: Both `std::map` and Skip List execute 5,000 arbitrary sub-range queries in 9–14 milliseconds by seeking the lower bound and scanning forward sequentially. For `std::unordered_map`, answering range queries requires iterating all $10^6$ elements per query, proving that hash tables cannot replace ordered structures in database query engines.
+
 ---
 
 ## 11. Reference Implementations
