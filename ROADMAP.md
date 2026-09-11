@@ -79,7 +79,7 @@ Legend:
 - [x] [`d-ary-heaps.md`](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
 - [ ] `binomial-heaps.md`
 - [ ] `fibonacci-heaps.md`
-- [ ] `pairing-heaps.md`
+- [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
 - [ ] `priority-queues-in-practice.md`
 - [ ] `selection-algorithms.md`
 - [ ] `median-maintenance.md`
