@@ -1057,7 +1057,13 @@ You usually keep:
 - the full table
 - or an explicit parent-direction table
 
-This is a common DP trade-off between memory and recoverability.
+This is a common DP trade-off between memory and recoverability:
+
+| Goal | Best Storage Choice | Space Complexity |
+|---|---|---|
+| **Final score or distance only** | Rolling 2 rows | $O(m)$ |
+| **Full edit transcript** | Full 2D table or parent table | $O(nm)$ |
+| **Full sequence alignment** | Full 2D table or Hirschberg's algorithm | $O(nm)$ (or $O(m)$ with divide-and-conquer) |
 
 ---
 
