@@ -99,7 +99,7 @@ Legend:
 - [x] [`topological-sort.md`](docs/08-graphs-and-network-algorithms/topological-sort.md)
 - [x] [`shortest-paths.md`](docs/08-graphs-and-network-algorithms/shortest-paths.md)
 - [ ] `all-pairs-shortest-paths.md`
-- [ ] `minimum-spanning-trees.md`
+- [x] [`minimum-spanning-trees.md`](docs/08-graphs-and-network-algorithms/minimum-spanning-trees.md)
 - [x] [`strongly-connected-components.md`](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
 - [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 
