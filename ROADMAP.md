@@ -105,7 +105,7 @@ Legend:
 
 ### [09] Algorithm Design Paradigms
 - [ ] `recursion-and-backtracking.md`
-- [ ] `divide-and-conquer.md`
+- [x] [`divide-and-conquer.md`](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
 - [x] [`greedy-algorithms.md`](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
 - [ ] `dynamic-programming-intuition.md`
 - [ ] `branch-and-bound.md`
