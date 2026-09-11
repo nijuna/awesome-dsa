@@ -112,7 +112,7 @@ Legend:
 - [ ] `meet-in-the-middle.md`
 
 ### [10] Dynamic Programming
-- [ ] `1d-and-2d-foundations.md`
+- [x] [`1d-and-2d-foundations.md`](docs/10-dynamic-programming/1d-and-2d-foundations.md)
 - [ ] `knapsack-family.md`
 - [ ] `sequences-and-strings.md`
 - [ ] `interval-and-matrix-dp.md`
