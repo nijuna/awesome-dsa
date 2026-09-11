@@ -82,7 +82,7 @@ Legend:
 - [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
 - [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
 - [ ] `selection-algorithms.md`
-- [ ] `median-maintenance.md`
+- [x] [`median-maintenance.md`](docs/06-heaps-priority-and-selection/median-maintenance.md)
 
 ### [07] Hashing, Randomization & Probabilistic
 - [ ] `hash-functions.md`
