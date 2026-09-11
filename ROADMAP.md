@@ -75,7 +75,7 @@ Legend:
 - [x] [`tries-and-radix-trees.md`](docs/05-trees-and-hierarchical-structures/tries-and-radix-trees.md)
 
 ### [06] Heaps, Priority & Selection
-- [ ] `binary-heaps.md`
+- [x] [`binary-heaps.md`](docs/06-heaps-priority-and-selection/binary-heaps.md)
 - [ ] `d-ary-heaps.md`
 - [ ] `binomial-heaps.md`
 - [ ] `fibonacci-heaps.md`
