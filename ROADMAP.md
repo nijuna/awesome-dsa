@@ -78,7 +78,7 @@ Legend:
 - [x] [`binary-heaps.md`](docs/06-heaps-priority-and-selection/binary-heaps.md)
 - [x] [`d-ary-heaps.md`](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
 - [ ] `binomial-heaps.md`
-- [ ] `fibonacci-heaps.md`
+- [x] [`fibonacci-heaps.md`](docs/06-heaps-priority-and-selection/fibonacci-heaps.md)
 - [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
 - [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
 - [ ] `selection-algorithms.md`
