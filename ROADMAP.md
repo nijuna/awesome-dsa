@@ -63,7 +63,7 @@ Legend:
 ### [05] Trees & Hierarchical Structures
 - [ ] `tree-basics-and-traversals.md`
 - [ ] `binary-search-trees.md`
-- [ ] `avl-and-red-black-trees.md`
+- [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 - [ ] `splay-trees.md`
 - [ ] `treaps.md`
 - [ ] `scapegoat-and-aa-trees.md`
