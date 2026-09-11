@@ -95,7 +95,7 @@ Legend:
 
 ### [08] Graphs & Network Algorithms
 - [ ] `graph-representations.md`
-- [ ] `bfs-dfs-and-traversal-patterns.md`
+- [x] [`bfs-dfs-and-traversal-patterns.md`](docs/08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
 - [ ] `topological-sort.md`
 - [ ] `shortest-paths.md`
 - [ ] `all-pairs-shortest-paths.md`
