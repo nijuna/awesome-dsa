@@ -80,7 +80,7 @@ Legend:
 - [ ] `binomial-heaps.md`
 - [ ] `fibonacci-heaps.md`
 - [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
-- [ ] `priority-queues-in-practice.md`
+- [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
 - [ ] `selection-algorithms.md`
 - [ ] `median-maintenance.md`
 
