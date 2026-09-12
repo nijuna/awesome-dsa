@@ -134,7 +134,7 @@ Legend:
 ## Phase 2: Advanced Data Structures & Competitive Programming
 
 ### [11] Strings, Text & Pattern Matching
-- [ ] `prefix-function-and-kmp.md`
+- [x] [`prefix-function-and-kmp.md`](docs/11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
 - [ ] `z-algorithm.md`
 - [ ] `rabin-karp-and-rolling-hash.md`
 - [ ] `aho-corasick.md`
