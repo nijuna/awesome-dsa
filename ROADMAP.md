@@ -138,7 +138,7 @@ Legend:
 - [ ] `z-algorithm.md`
 - [ ] `rabin-karp-and-rolling-hash.md`
 - [x] [`aho-corasick.md`](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
-- [ ] `suffix-array.md`
+- [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
 - [ ] `suffix-tree.md`
 - [ ] `suffix-automaton.md`
 - [ ] `manacher-algorithm.md`
