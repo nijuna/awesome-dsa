@@ -166,7 +166,7 @@ Legend:
 - [ ] `x-fast-and-y-fast-tries.md`
 - [ ] `fusion-trees.md`
 - [x] [`persistent-data-structures.md`](docs/14-advanced-data-structures/persistent-data-structures.md)
-- [ ] `link-cut-trees.md`
+- [x] [`link-cut-trees.md`](docs/14-advanced-data-structures/link-cut-trees.md)
 - [ ] `wavelet-trees.md`
 - [ ] `succinct-data-structures.md`
 
