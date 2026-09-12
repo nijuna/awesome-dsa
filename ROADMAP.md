@@ -19,15 +19,15 @@ Legend:
 - [ ] `theory-path.md`
 
 ### [01] Mathematical Foundations
-- [ ] `logic-and-proof-techniques.md`
+- [x] [`logic-and-proof-techniques.md`](docs/01-mathematical-foundations/logic-and-proof-techniques.md)
 - [ ] `sets-functions-relations.md`
-- [ ] `summations-and-series.md`
-- [ ] `recurrence-relations.md`
-- [ ] `combinatorics.md`
+- [x] [`summations-and-series.md`](docs/01-mathematical-foundations/summations-and-series.md)
+- [x] [`recurrence-relations.md`](docs/01-mathematical-foundations/recurrence-relations.md)
+- [x] [`combinatorics.md`](docs/01-mathematical-foundations/combinatorics.md)
 - [ ] `probability-basics.md`
 - [ ] `expected-value-and-random-variables.md`
 - [ ] `generating-functions-intuition.md`
-- [ ] `number-theory-basics.md`
+- [x] [`number-theory-basics.md`](docs/01-mathematical-foundations/number-theory-basics.md)
 - [ ] `linear-algebra-for-algorithms.md`
 
 ### [02] Analysis & Complexity
