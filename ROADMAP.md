@@ -182,7 +182,7 @@ Legend:
 - [x] [`count-min-sketch.md`](docs/15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
 
 ### [16] Parallel, Concurrent & Lock-Free
-- [ ] `parallel-algorithm-basics.md`
+- [x] [`parallel-algorithm-basics.md`](docs/16-parallel-concurrent-and-lock-free/parallel-algorithm-basics.md)
 - [ ] `concurrent-queues-and-stacks.md`
 - [ ] `lock-free-and-wait-free-basics.md`
 - [ ] `aba-problem.md`
