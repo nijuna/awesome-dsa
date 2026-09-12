@@ -103,6 +103,7 @@ Legend:
 - [x] [`minimum-spanning-trees.md`](docs/08-graphs-and-network-algorithms/minimum-spanning-trees.md)
 - [x] [`strongly-connected-components.md`](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
 - [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
+- [x] [`network-flow-and-push-relabel.md`](docs/08-graphs-and-network-algorithms/network-flow-and-push-relabel.md)
 
 ### [09] Algorithm Design Paradigms
 - [x] [`recursion-and-backtracking.md`](docs/09-algorithm-design-paradigms/recursion-and-backtracking.md)
