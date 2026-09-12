@@ -20,11 +20,11 @@ Legend:
 
 ### [01] Mathematical Foundations
 - [x] [`logic-and-proof-techniques.md`](docs/01-mathematical-foundations/logic-and-proof-techniques.md)
-- [ ] `sets-functions-relations.md`
+- [x] [`sets-functions-relations.md`](docs/01-mathematical-foundations/sets-functions-relations.md)
 - [x] [`summations-and-series.md`](docs/01-mathematical-foundations/summations-and-series.md)
 - [x] [`recurrence-relations.md`](docs/01-mathematical-foundations/recurrence-relations.md)
 - [x] [`combinatorics.md`](docs/01-mathematical-foundations/combinatorics.md)
-- [ ] `probability-basics.md`
+- [x] [`probability-basics.md`](docs/01-mathematical-foundations/probability-basics.md)
 - [ ] `expected-value-and-random-variables.md`
 - [ ] `generating-functions-intuition.md`
 - [x] [`number-theory-basics.md`](docs/01-mathematical-foundations/number-theory-basics.md)
@@ -68,7 +68,7 @@ Legend:
 - [x] [`treaps.md`](docs/05-trees-and-hierarchical-structures/treaps.md)
 - [ ] `scapegoat-and-aa-trees.md`
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
-- [ ] `order-statistic-trees.md`
+- [x] [`order-statistic-trees.md`](docs/05-trees-and-hierarchical-structures/order-statistic-trees.md)
 - [ ] `interval-trees.md`
 - [x] [`segment-trees.md`](docs/05-trees-and-hierarchical-structures/segment-trees.md)
 - [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
@@ -77,7 +77,7 @@ Legend:
 ### [06] Heaps, Priority & Selection
 - [x] [`binary-heaps.md`](docs/06-heaps-priority-and-selection/binary-heaps.md)
 - [x] [`d-ary-heaps.md`](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
-- [ ] `binomial-heaps.md`
+- [x] [`binomial-heaps.md`](docs/06-heaps-priority-and-selection/binomial-heaps.md)
 - [x] [`fibonacci-heaps.md`](docs/06-heaps-priority-and-selection/fibonacci-heaps.md)
 - [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
 - [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
@@ -86,7 +86,7 @@ Legend:
 - [x] [`indexed-priority-queues.md`](docs/06-heaps-priority-and-selection/indexed-priority-queues.md)
 
 ### [07] Hashing, Randomization & Probabilistic
-- [ ] `hash-functions.md`
+- [x] [`hash-functions.md`](docs/07-hashing-randomization-and-probabilistic/hash-functions.md)
 - [x] [`hash-tables-and-collisions.md`](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
 - [ ] `robin-hood-cuckoo-and-hopscotch-hashing.md`
 - [ ] `consistent-hashing.md`
