@@ -145,7 +145,7 @@ Legend:
 
 ### [12] Range Query & Offline Structures
 - [x] [`prefix-sums-and-difference-arrays.md`](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
-- [ ] `sparse-tables.md`
+- [x] [`sparse-tables.md`](docs/12-range-query-and-offline-structures/sparse-tables.md)
 - [ ] `sqrt-decomposition.md`
 - [ ] `mo-algorithm.md`
 - [ ] `offline-query-processing.md`
