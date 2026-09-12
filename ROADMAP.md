@@ -89,9 +89,9 @@ Legend:
 - [x] [`hash-functions.md`](docs/07-hashing-randomization-and-probabilistic/hash-functions.md)
 - [x] [`hash-tables-and-collisions.md`](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
 - [ ] `robin-hood-cuckoo-and-hopscotch-hashing.md`
-- [ ] `consistent-hashing.md`
+- [x] [`consistent-hashing.md`](docs/07-hashing-randomization-and-probabilistic/consistent-hashing.md)
 - [x] [`bloom-and-cuckoo-filters.md`](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
-- [ ] `hyperloglog.md`
+- [x] [`hyperloglog.md`](docs/07-hashing-randomization-and-probabilistic/hyperloglog.md)
 - [x] [`skip-lists.md`](docs/07-hashing-randomization-and-probabilistic/skip-lists.md)
 
 ### [08] Graphs & Network Algorithms
@@ -174,11 +174,11 @@ Legend:
 ## Phase 3: Systems, Concurrency, Proofs & Production
 
 ### [15] External Memory & Streaming
-- [ ] `io-model-and-external-memory.md`
-- [ ] `external-sorting.md`
+- [x] [`io-model-and-external-memory.md`](docs/15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
+- [x] [`external-sorting.md`](docs/15-external-memory-cache-oblivious-and-streaming/external-sorting.md)
 - [ ] `lsm-trees.md`
 - [ ] `streaming-models.md`
-- [ ] `count-min-sketch.md`
+- [x] [`count-min-sketch.md`](docs/15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
 
 ### [16] Parallel, Concurrent & Lock-Free
 - [ ] `parallel-algorithm-basics.md`
