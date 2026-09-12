@@ -164,7 +164,7 @@ Legend:
 - [ ] `van-emde-boas-trees.md`
 - [ ] `x-fast-and-y-fast-tries.md`
 - [ ] `fusion-trees.md`
-- [ ] `persistent-data-structures.md`
+- [x] [`persistent-data-structures.md`](docs/14-advanced-data-structures/persistent-data-structures.md)
 - [ ] `link-cut-trees.md`
 - [ ] `wavelet-trees.md`
 - [ ] `succinct-data-structures.md`
