@@ -66,7 +66,7 @@ Legend:
 - [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 - [x] [`splay-trees.md`](docs/05-trees-and-hierarchical-structures/splay-trees.md)
 - [x] [`treaps.md`](docs/05-trees-and-hierarchical-structures/treaps.md)
-- [ ] `scapegoat-and-aa-trees.md`
+- [x] [`scapegoat-and-aa-trees.md`](docs/05-trees-and-hierarchical-structures/scapegoat-and-aa-trees.md)
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - [x] [`order-statistic-trees.md`](docs/05-trees-and-hierarchical-structures/order-statistic-trees.md)
 - [ ] `interval-trees.md`
