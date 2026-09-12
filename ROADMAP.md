@@ -162,7 +162,7 @@ Legend:
 - [ ] `r-trees.md`
 
 ### [14] Advanced Data Structures
-- [ ] `van-emde-boas-trees.md`
+- [x] [`van-emde-boas-trees.md`](docs/14-advanced-data-structures/van-emde-boas-trees.md)
 - [ ] `x-fast-and-y-fast-tries.md`
 - [ ] `fusion-trees.md`
 - [x] [`persistent-data-structures.md`](docs/14-advanced-data-structures/persistent-data-structures.md)
