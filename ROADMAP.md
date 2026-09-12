@@ -53,8 +53,8 @@ Legend:
 - [ ] `arrays-and-memory-layout.md`
 - [x] [`dynamic-arrays-and-strings.md`](docs/04-linear-data-structures/dynamic-arrays-and-strings.md)
 - [x] [`linked-lists.md`](docs/04-linear-data-structures/linked-lists.md)
-- [ ] `stacks-and-queues.md`
-- [ ] `deques.md`
+- [x] [`stacks-and-queues.md`](docs/04-linear-data-structures/stacks-and-queues.md)
+- [x] [`deques.md`](docs/04-linear-data-structures/deques.md)
 - [x] [`ring-buffers.md`](docs/04-linear-data-structures/ring-buffers.md)
 - [ ] `ropes-gap-buffers-piece-tables.md`
 - [ ] `bitsets-and-bitvectors.md`
@@ -62,10 +62,10 @@ Legend:
 
 ### [05] Trees & Hierarchical Structures
 - [ ] `tree-basics-and-traversals.md`
-- [ ] `binary-search-trees.md`
+- [x] [`binary-search-trees.md`](docs/05-trees-and-hierarchical-structures/binary-search-trees.md)
 - [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 - [ ] `splay-trees.md`
-- [ ] `treaps.md`
+- [x] [`treaps.md`](docs/05-trees-and-hierarchical-structures/treaps.md)
 - [ ] `scapegoat-and-aa-trees.md`
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - [ ] `order-statistic-trees.md`
