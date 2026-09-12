@@ -110,7 +110,7 @@ Legend:
 - [x] [`divide-and-conquer.md`](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
 - [x] [`greedy-algorithms.md`](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
 - [x] [`dynamic-programming-intuition.md`](docs/09-algorithm-design-paradigms/dynamic-programming-intuition.md)
-- [ ] `branch-and-bound.md`
+- [x] [`branch-and-bound.md`](docs/09-algorithm-design-paradigms/branch-and-bound.md)
 - [x] [`meet-in-the-middle.md`](docs/09-algorithm-design-paradigms/meet-in-the-middle.md)
 
 ### [10] Dynamic Programming
