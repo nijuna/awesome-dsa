@@ -144,7 +144,7 @@ Legend:
 - [ ] `manacher-algorithm.md`
 
 ### [12] Range Query & Offline Structures
-- [ ] `prefix-sums-and-difference-arrays.md`
+- [x] [`prefix-sums-and-difference-arrays.md`](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
 - [ ] `sparse-tables.md`
 - [ ] `sqrt-decomposition.md`
 - [ ] `mo-algorithm.md`
