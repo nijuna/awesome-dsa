@@ -168,7 +168,7 @@ Legend:
 - [x] [`persistent-data-structures.md`](docs/14-advanced-data-structures/persistent-data-structures.md)
 - [x] [`link-cut-trees.md`](docs/14-advanced-data-structures/link-cut-trees.md)
 - [x] [`wavelet-trees.md`](docs/14-advanced-data-structures/wavelet-trees.md)
-- [ ] `succinct-data-structures.md`
+- [x] [`succinct-data-structures.md`](docs/14-advanced-data-structures/succinct-data-structures.md)
 
 ---
 
