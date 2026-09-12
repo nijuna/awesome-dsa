@@ -135,7 +135,7 @@ Legend:
 
 ### [11] Strings, Text & Pattern Matching
 - [x] [`prefix-function-and-kmp.md`](docs/11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
-- [ ] `z-algorithm.md`
+- [x] [`z-algorithm.md`](docs/11-strings-text-and-pattern-matching/z-algorithm.md)
 - [ ] `rabin-karp-and-rolling-hash.md`
 - [x] [`aho-corasick.md`](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
 - [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
