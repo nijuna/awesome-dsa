@@ -178,7 +178,7 @@ Legend:
 - [x] [`io-model-and-external-memory.md`](docs/15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
 - [x] [`external-sorting.md`](docs/15-external-memory-cache-oblivious-and-streaming/external-sorting.md)
 - [x] [`lsm-trees.md`](docs/15-external-memory-cache-oblivious-and-streaming/lsm-trees.md)
-- [ ] `streaming-models.md`
+- [x] [`streaming-models.md`](docs/15-external-memory-cache-oblivious-and-streaming/streaming-models.md)
 - [x] [`count-min-sketch.md`](docs/15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
 
 ### [16] Parallel, Concurrent & Lock-Free
