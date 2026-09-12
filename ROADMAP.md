@@ -154,7 +154,7 @@ Legend:
 - [x] [`range-updates-and-lazy-propagation.md`](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
 
 ### [13] Geometric & Spatial Algorithms
-- [ ] `computational-geometry-basics.md`
+- [x] [`computational-geometry-basics.md`](docs/13-geometric-and-spatial-algorithms/computational-geometry-basics.md)
 - [ ] `line-sweep.md`
 - [ ] `convex-hull.md`
 - [ ] `closest-pair-of-points.md`
