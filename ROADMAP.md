@@ -57,11 +57,11 @@ Legend:
 - [x] [`deques.md`](docs/04-linear-data-structures/deques.md)
 - [x] [`ring-buffers.md`](docs/04-linear-data-structures/ring-buffers.md)
 - [ ] `ropes-gap-buffers-piece-tables.md`
-- [ ] `bitsets-and-bitvectors.md`
+- [x] [`bitsets-and-bitvectors.md`](docs/04-linear-data-structures/bitsets-and-bitvectors.md)
 - [x] [`disjoint-set-union.md`](docs/04-linear-data-structures/disjoint-set-union.md)
 
 ### [05] Trees & Hierarchical Structures
-- [ ] `tree-basics-and-traversals.md`
+- [x] [`tree-basics-and-traversals.md`](docs/05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
 - [x] [`binary-search-trees.md`](docs/05-trees-and-hierarchical-structures/binary-search-trees.md)
 - [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 - [ ] `splay-trees.md`
@@ -105,12 +105,12 @@ Legend:
 - [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 
 ### [09] Algorithm Design Paradigms
-- [ ] `recursion-and-backtracking.md`
+- [x] [`recursion-and-backtracking.md`](docs/09-algorithm-design-paradigms/recursion-and-backtracking.md)
 - [x] [`divide-and-conquer.md`](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
 - [x] [`greedy-algorithms.md`](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
 - [ ] `dynamic-programming-intuition.md`
 - [ ] `branch-and-bound.md`
-- [ ] `meet-in-the-middle.md`
+- [x] [`meet-in-the-middle.md`](docs/09-algorithm-design-paradigms/meet-in-the-middle.md)
 
 ### [10] Dynamic Programming
 - [x] [`1d-and-2d-foundations.md`](docs/10-dynamic-programming/1d-and-2d-foundations.md)
