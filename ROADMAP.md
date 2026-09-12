@@ -186,7 +186,7 @@ Legend:
 - [x] [`concurrent-queues-and-stacks.md`](docs/16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
 - [x] [`lock-free-and-wait-free-basics.md`](docs/16-parallel-concurrent-and-lock-free/lock-free-and-wait-free-basics.md)
 - [x] [`aba-problem.md`](docs/16-parallel-concurrent-and-lock-free/aba-problem.md)
-- [ ] `hazard-pointers-and-epoch-reclamation.md`
+- [x] [`hazard-pointers-and-epoch-reclamation.md`](docs/16-parallel-concurrent-and-lock-free/hazard-pointers-and-epoch-reclamation.md)
 - [ ] `work-stealing-deques.md`
 
 ### [17] Cryptographic & Merkle Structures
