@@ -31,12 +31,12 @@ Legend:
 - [ ] `linear-algebra-for-algorithms.md`
 
 ### [02] Analysis & Complexity
-- [ ] `asymptotic-analysis.md`
-- [ ] `amortized-analysis.md`
+- [x] [`asymptotic-analysis.md`](docs/02-analysis-and-complexity/asymptotic-analysis.md)
+- [x] [`amortized-analysis.md`](docs/02-analysis-and-complexity/amortized-analysis.md)
 - [ ] `worst-average-smoothed-analysis.md`
 - [ ] `lower-bounds-and-adversaries.md`
 - [ ] `reductions-and-hardness-intuition.md`
-- [ ] `master-theorem-and-beyond.md`
+- [x] [`master-theorem-and-beyond.md`](docs/02-analysis-and-complexity/master-theorem-and-beyond.md)
 - [ ] `akra-bazzi-method.md`
 - [ ] `randomized-analysis.md`
 
@@ -50,7 +50,7 @@ Legend:
 - [ ] `benchmarking-pitfalls.md`
 
 ### [04] Linear Data Structures
-- [ ] `arrays-and-memory-layout.md`
+- [x] [`arrays-and-memory-layout.md`](docs/04-linear-data-structures/arrays-and-memory-layout.md)
 - [x] [`dynamic-arrays-and-strings.md`](docs/04-linear-data-structures/dynamic-arrays-and-strings.md)
 - [x] [`linked-lists.md`](docs/04-linear-data-structures/linked-lists.md)
 - [x] [`stacks-and-queues.md`](docs/04-linear-data-structures/stacks-and-queues.md)
