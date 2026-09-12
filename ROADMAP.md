@@ -159,7 +159,7 @@ Legend:
 - [x] [`convex-hull.md`](docs/13-geometric-and-spatial-algorithms/convex-hull.md)
 - [x] [`closest-pair-of-points.md`](docs/13-geometric-and-spatial-algorithms/closest-pair-of-points.md)
 - [x] [`kd-trees.md`](docs/13-geometric-and-spatial-algorithms/kd-trees.md)
-- [ ] `r-trees.md`
+- [x] [`r-trees.md`](docs/13-geometric-and-spatial-algorithms/r-trees.md)
 
 ### [14] Advanced Data Structures
 - [x] [`van-emde-boas-trees.md`](docs/14-advanced-data-structures/van-emde-boas-trees.md)
