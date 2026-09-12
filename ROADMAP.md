@@ -41,13 +41,13 @@ Legend:
 - [ ] `randomized-analysis.md`
 
 ### [03] Machine Model & Performance
-- [ ] `ram-model-vs-real-machines.md`
+- [x] [`ram-model-vs-real-machines.md`](docs/03-machine-model-and-performance/ram-model-vs-real-machines.md)
 - [x] [`cpu-cache-and-memory.md`](docs/03-machine-model-and-performance/cpu-cache-and-memory.md)
 - [x] [`branch-prediction-and-pipelines.md`](docs/03-machine-model-and-performance/branch-prediction-and-pipelines.md)
-- [ ] `memory-allocation-and-fragmentation.md`
-- [ ] `locality-and-data-oriented-design.md`
-- [ ] `simd-and-vectorization-intuition.md`
-- [ ] `benchmarking-pitfalls.md`
+- [x] [`memory-allocation-and-fragmentation.md`](docs/03-machine-model-and-performance/memory-allocation-and-fragmentation.md)
+- [x] [`locality-and-data-oriented-design.md`](docs/03-machine-model-and-performance/locality-and-data-oriented-design.md)
+- [x] [`simd-and-vectorization-intuition.md`](docs/03-machine-model-and-performance/simd-and-vectorization-intuition.md)
+- [x] [`benchmarking-pitfalls.md`](docs/03-machine-model-and-performance/benchmarking-pitfalls.md)
 
 ### [04] Linear Data Structures
 - [x] [`arrays-and-memory-layout.md`](docs/04-linear-data-structures/arrays-and-memory-layout.md)
