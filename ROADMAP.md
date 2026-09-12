@@ -69,7 +69,7 @@ Legend:
 - [x] [`scapegoat-and-aa-trees.md`](docs/05-trees-and-hierarchical-structures/scapegoat-and-aa-trees.md)
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - [x] [`order-statistic-trees.md`](docs/05-trees-and-hierarchical-structures/order-statistic-trees.md)
-- [ ] `interval-trees.md`
+- [x] [`interval-trees.md`](docs/05-trees-and-hierarchical-structures/interval-trees.md)
 - [x] [`segment-trees.md`](docs/05-trees-and-hierarchical-structures/segment-trees.md)
 - [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
 - [x] [`tries-and-radix-trees.md`](docs/05-trees-and-hierarchical-structures/tries-and-radix-trees.md)
