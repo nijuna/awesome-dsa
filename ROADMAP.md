@@ -43,7 +43,7 @@ Legend:
 ### [03] Machine Model & Performance
 - [ ] `ram-model-vs-real-machines.md`
 - [x] [`cpu-cache-and-memory.md`](docs/03-machine-model-and-performance/cpu-cache-and-memory.md)
-- [ ] `branch-prediction-and-pipelines.md`
+- [x] [`branch-prediction-and-pipelines.md`](docs/03-machine-model-and-performance/branch-prediction-and-pipelines.md)
 - [ ] `memory-allocation-and-fragmentation.md`
 - [ ] `locality-and-data-oriented-design.md`
 - [ ] `simd-and-vectorization-intuition.md`
@@ -141,12 +141,12 @@ Legend:
 - [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
 - [ ] `suffix-tree.md`
 - [ ] `suffix-automaton.md`
-- [ ] `manacher-algorithm.md`
+- [x] [`manacher-algorithm.md`](docs/11-strings-text-and-pattern-matching/manacher-algorithm.md)
 
 ### [12] Range Query & Offline Structures
 - [x] [`prefix-sums-and-difference-arrays.md`](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
 - [x] [`sparse-tables.md`](docs/12-range-query-and-offline-structures/sparse-tables.md)
-- [ ] `sqrt-decomposition.md`
+- [x] [`sqrt-decomposition.md`](docs/12-range-query-and-offline-structures/sqrt-decomposition.md)
 - [ ] `mo-algorithm.md`
 - [ ] `offline-query-processing.md`
 - [x] [`range-minimum-query.md`](docs/12-range-query-and-offline-structures/range-minimum-query.md)
@@ -200,13 +200,13 @@ Legend:
 
 ### [20] Proof Techniques & Correctness
 - [ ] `induction.md`
-- [ ] `loop-invariants.md`
+- [x] [`loop-invariants.md`](docs/20-proof-techniques-and-correctness/loop-invariants.md)
 - [ ] `exchange-arguments.md`
 - [ ] `cut-and-cycle-properties.md`
 
 ### [21] Implementation Engineering
 - [ ] `api-design-for-data-structures.md`
-- [ ] `testing-data-structures.md`
+- [x] [`testing-data-structures.md`](docs/21-implementation-engineering/testing-data-structures.md)
 - [ ] `fuzzing-and-property-testing.md`
 
 ### [22] Benchmarking & Tradeoffs
