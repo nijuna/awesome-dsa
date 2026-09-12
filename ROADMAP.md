@@ -140,7 +140,7 @@ Legend:
 - [x] [`aho-corasick.md`](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
 - [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
 - [ ] `suffix-tree.md`
-- [ ] `suffix-automaton.md`
+- [x] [`suffix-automaton.md`](docs/11-strings-text-and-pattern-matching/suffix-automaton.md)
 - [x] [`manacher-algorithm.md`](docs/11-strings-text-and-pattern-matching/manacher-algorithm.md)
 
 ### [12] Range Query & Offline Structures
