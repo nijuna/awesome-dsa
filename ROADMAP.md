@@ -64,7 +64,7 @@ Legend:
 - [x] [`tree-basics-and-traversals.md`](docs/05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
 - [x] [`binary-search-trees.md`](docs/05-trees-and-hierarchical-structures/binary-search-trees.md)
 - [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
-- [ ] `splay-trees.md`
+- [x] [`splay-trees.md`](docs/05-trees-and-hierarchical-structures/splay-trees.md)
 - [x] [`treaps.md`](docs/05-trees-and-hierarchical-structures/treaps.md)
 - [ ] `scapegoat-and-aa-trees.md`
 - [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
