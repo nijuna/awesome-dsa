@@ -148,7 +148,7 @@ Legend:
 - [x] [`prefix-sums-and-difference-arrays.md`](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
 - [x] [`sparse-tables.md`](docs/12-range-query-and-offline-structures/sparse-tables.md)
 - [x] [`sqrt-decomposition.md`](docs/12-range-query-and-offline-structures/sqrt-decomposition.md)
-- [ ] `mo-algorithm.md`
+- [x] [`mo-algorithm.md`](docs/12-range-query-and-offline-structures/mo-algorithm.md)
 - [ ] `offline-query-processing.md`
 - [x] [`range-minimum-query.md`](docs/12-range-query-and-offline-structures/range-minimum-query.md)
 - [x] [`range-updates-and-lazy-propagation.md`](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
