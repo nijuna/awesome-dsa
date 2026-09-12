@@ -156,7 +156,7 @@ Legend:
 ### [13] Geometric & Spatial Algorithms
 - [x] [`computational-geometry-basics.md`](docs/13-geometric-and-spatial-algorithms/computational-geometry-basics.md)
 - [x] [`line-sweep.md`](docs/13-geometric-and-spatial-algorithms/line-sweep.md)
-- [ ] `convex-hull.md`
+- [x] [`convex-hull.md`](docs/13-geometric-and-spatial-algorithms/convex-hull.md)
 - [ ] `closest-pair-of-points.md`
 - [ ] `kd-trees.md`
 - [ ] `r-trees.md`
