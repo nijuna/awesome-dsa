@@ -199,15 +199,15 @@ Legend:
 - [ ] `distributed-state-engines.md`
 
 ### [20] Proof Techniques & Correctness
-- [ ] `induction.md`
+- [x] [`induction.md`](docs/20-proof-techniques-and-correctness/induction.md)
 - [x] [`loop-invariants.md`](docs/20-proof-techniques-and-correctness/loop-invariants.md)
-- [ ] `exchange-arguments.md`
-- [ ] `cut-and-cycle-properties.md`
+- [x] [`exchange-arguments.md`](docs/20-proof-techniques-and-correctness/exchange-arguments.md)
+- [x] [`cut-and-cycle-properties.md`](docs/20-proof-techniques-and-correctness/cut-and-cycle-properties.md)
 
 ### [21] Implementation Engineering
-- [ ] `api-design-for-data-structures.md`
+- [x] [`api-design-for-data-structures.md`](docs/21-implementation-engineering/api-design-for-data-structures.md)
 - [x] [`testing-data-structures.md`](docs/21-implementation-engineering/testing-data-structures.md)
-- [ ] `fuzzing-and-property-testing.md`
+- [x] [`fuzzing-and-property-testing.md`](docs/21-implementation-engineering/fuzzing-and-property-testing.md)
 
 ### [22] Benchmarking & Tradeoffs
 - [x] [`theoretical-vs-practical-performance.md`](docs/22-benchmarking-and-tradeoffs/theoretical-vs-practical-performance.md)
