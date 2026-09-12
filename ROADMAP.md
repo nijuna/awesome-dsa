@@ -108,7 +108,7 @@ Legend:
 - [x] [`recursion-and-backtracking.md`](docs/09-algorithm-design-paradigms/recursion-and-backtracking.md)
 - [x] [`divide-and-conquer.md`](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
 - [x] [`greedy-algorithms.md`](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
-- [ ] `dynamic-programming-intuition.md`
+- [x] [`dynamic-programming-intuition.md`](docs/09-algorithm-design-paradigms/dynamic-programming-intuition.md)
 - [ ] `branch-and-bound.md`
 - [x] [`meet-in-the-middle.md`](docs/09-algorithm-design-paradigms/meet-in-the-middle.md)
 
@@ -136,7 +136,7 @@ Legend:
 ### [11] Strings, Text & Pattern Matching
 - [x] [`prefix-function-and-kmp.md`](docs/11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
 - [x] [`z-algorithm.md`](docs/11-strings-text-and-pattern-matching/z-algorithm.md)
-- [ ] `rabin-karp-and-rolling-hash.md`
+- [x] [`rabin-karp-and-rolling-hash.md`](docs/11-strings-text-and-pattern-matching/rabin-karp-and-rolling-hash.md)
 - [x] [`aho-corasick.md`](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
 - [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
 - [ ] `suffix-tree.md`
@@ -149,8 +149,8 @@ Legend:
 - [ ] `sqrt-decomposition.md`
 - [ ] `mo-algorithm.md`
 - [ ] `offline-query-processing.md`
-- [ ] `range-minimum-query.md`
-- [ ] `range-updates-and-lazy-propagation.md`
+- [x] [`range-minimum-query.md`](docs/12-range-query-and-offline-structures/range-minimum-query.md)
+- [x] [`range-updates-and-lazy-propagation.md`](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
 
 ### [13] Geometric & Spatial Algorithms
 - [ ] `computational-geometry-basics.md`
