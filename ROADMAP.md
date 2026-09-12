@@ -119,7 +119,7 @@ Legend:
 - [x] [`longest-common-subsequence.md`](docs/10-dynamic-programming/longest-common-subsequence.md)
 - [x] [`interval-and-matrix-dp.md`](docs/10-dynamic-programming/interval-and-matrix-dp.md)
 - [x] [`tree-dp.md`](docs/10-dynamic-programming/tree-dp.md)
-- [ ] `bitmask-and-state-compression.md`
+- [x] [`bitmask-and-state-compression.md`](docs/10-dynamic-programming/bitmask-and-state-compression.md)
 
 ### [19] Problem-Solving Patterns
 - [x] [`two-pointers.md`](docs/19-problem-solving-patterns/two-pointers.md)
