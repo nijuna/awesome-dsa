@@ -83,6 +83,7 @@ Legend:
 - [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
 - [x] [`quickselect-and-median-of-medians.md`](docs/06-heaps-priority-and-selection/quickselect-and-median-of-medians.md)
 - [x] [`median-maintenance.md`](docs/06-heaps-priority-and-selection/median-maintenance.md)
+- [x] [`indexed-priority-queues.md`](docs/06-heaps-priority-and-selection/indexed-priority-queues.md)
 
 ### [07] Hashing, Randomization & Probabilistic
 - [ ] `hash-functions.md`
