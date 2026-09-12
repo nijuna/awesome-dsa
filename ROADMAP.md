@@ -88,7 +88,7 @@ Legend:
 ### [07] Hashing, Randomization & Probabilistic
 - [x] [`hash-functions.md`](docs/07-hashing-randomization-and-probabilistic/hash-functions.md)
 - [x] [`hash-tables-and-collisions.md`](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
-- [ ] `robin-hood-cuckoo-and-hopscotch-hashing.md`
+- [x] [`robin-hood-cuckoo-and-hopscotch-hashing.md`](docs/07-hashing-randomization-and-probabilistic/robin-hood-cuckoo-and-hopscotch-hashing.md)
 - [x] [`consistent-hashing.md`](docs/07-hashing-randomization-and-probabilistic/consistent-hashing.md)
 - [x] [`bloom-and-cuckoo-filters.md`](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
 - [x] [`hyperloglog.md`](docs/07-hashing-randomization-and-probabilistic/hyperloglog.md)
