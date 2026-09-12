@@ -125,7 +125,7 @@ Legend:
 - [x] [`two-pointers.md`](docs/19-problem-solving-patterns/two-pointers.md)
 - [x] [`sliding-window.md`](docs/19-problem-solving-patterns/sliding-window.md)
 - [x] [`monotonic-stack-and-queue.md`](docs/19-problem-solving-patterns/monotonic-stack-and-queue.md)
-- [ ] `interval-scheduling.md`
+- [x] [`interval-scheduling.md`](docs/19-problem-solving-patterns/interval-scheduling.md)
 - [x] [`binary-search-on-answer.md`](docs/19-problem-solving-patterns/binary-search-on-answer.md)
 
 ---
