@@ -184,7 +184,7 @@ Legend:
 ### [16] Parallel, Concurrent & Lock-Free
 - [x] [`parallel-algorithm-basics.md`](docs/16-parallel-concurrent-and-lock-free/parallel-algorithm-basics.md)
 - [x] [`concurrent-queues-and-stacks.md`](docs/16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
-- [ ] `lock-free-and-wait-free-basics.md`
+- [x] [`lock-free-and-wait-free-basics.md`](docs/16-parallel-concurrent-and-lock-free/lock-free-and-wait-free-basics.md)
 - [ ] `aba-problem.md`
 - [ ] `hazard-pointers-and-epoch-reclamation.md`
 - [ ] `work-stealing-deques.md`
