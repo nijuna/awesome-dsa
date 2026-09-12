@@ -118,7 +118,7 @@ Legend:
 - [x] [`edit-distance-and-sequence-alignment.md`](docs/10-dynamic-programming/edit-distance-and-sequence-alignment.md)
 - [x] [`longest-common-subsequence.md`](docs/10-dynamic-programming/longest-common-subsequence.md)
 - [x] [`interval-and-matrix-dp.md`](docs/10-dynamic-programming/interval-and-matrix-dp.md)
-- [ ] `tree-dp.md`
+- [x] [`tree-dp.md`](docs/10-dynamic-programming/tree-dp.md)
 - [ ] `bitmask-and-state-compression.md`
 
 ### [19] Problem-Solving Patterns
