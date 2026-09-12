@@ -124,7 +124,7 @@ Legend:
 ### [19] Problem-Solving Patterns
 - [x] [`two-pointers.md`](docs/19-problem-solving-patterns/two-pointers.md)
 - [x] [`sliding-window.md`](docs/19-problem-solving-patterns/sliding-window.md)
-- [ ] `monotonic-stack-and-queue.md`
+- [x] [`monotonic-stack-and-queue.md`](docs/19-problem-solving-patterns/monotonic-stack-and-queue.md)
 - [ ] `interval-scheduling.md`
 - [ ] `binary-search-on-answer.md`
 
