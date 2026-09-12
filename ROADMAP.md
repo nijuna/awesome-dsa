@@ -149,7 +149,7 @@ Legend:
 - [x] [`sparse-tables.md`](docs/12-range-query-and-offline-structures/sparse-tables.md)
 - [x] [`sqrt-decomposition.md`](docs/12-range-query-and-offline-structures/sqrt-decomposition.md)
 - [x] [`mo-algorithm.md`](docs/12-range-query-and-offline-structures/mo-algorithm.md)
-- [ ] `offline-query-processing.md`
+- [x] [`offline-query-processing.md`](docs/12-range-query-and-offline-structures/offline-query-processing.md)
 - [x] [`range-minimum-query.md`](docs/12-range-query-and-offline-structures/range-minimum-query.md)
 - [x] [`range-updates-and-lazy-propagation.md`](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
 
