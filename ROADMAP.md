@@ -12,11 +12,11 @@ Legend:
 ## Phase 1: Core Foundations & Universal Structures
 
 ### [00] Learning Paths
-- [ ] `beginner-path.md`
-- [ ] `interview-path.md`
-- [ ] `competitive-programming-path.md`
-- [ ] `systems-engineer-path.md`
-- [ ] `theory-path.md`
+- [x] [`beginner-path.md`](docs/00-learning-paths/beginner-path.md)
+- [x] [`interview-path.md`](docs/00-learning-paths/interview-path.md)
+- [x] [`competitive-programming-path.md`](docs/00-learning-paths/competitive-programming-path.md)
+- [x] [`systems-engineer-path.md`](docs/00-learning-paths/systems-engineer-path.md)
+- [x] [`theory-path.md`](docs/00-learning-paths/theory-path.md)
 
 ### [01] Mathematical Foundations
 - [x] [`logic-and-proof-techniques.md`](docs/01-mathematical-foundations/logic-and-proof-techniques.md)
