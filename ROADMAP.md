@@ -195,7 +195,7 @@ Legend:
 
 ### [18] Systems Case Studies
 - [x] [`storage-engines-breakdown.md`](docs/18-systems-case-studies/storage-engines-breakdown.md)
-- [ ] `linux-kernel-internals.md`
+- [x] [`linux-kernel-internals.md`](docs/18-systems-case-studies/linux-kernel-internals.md)
 - [ ] `high-performance-caching.md`
 - [ ] `distributed-state-engines.md`
 
