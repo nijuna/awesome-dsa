@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/hero.svg" alt="The DSA Handbook" width="100%">
+</p>
+
 # The DSA Handbook
 ### The Invariant-First Reference Architecture & Implementation Manual for Data Structures and Algorithms
 
