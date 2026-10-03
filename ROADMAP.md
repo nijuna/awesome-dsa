@@ -1,224 +1,299 @@
-# The DSA Handbook Master Roadmap & Completion Matrix
+# The DSA Handbook Master Curriculum Syllabus & Topic Directory
 
-This roadmap tracks the development of **The DSA Handbook** across its 25 core knowledge domains and verified implementation phases.
-
-Legend:
-* [x] **Complete**: Exhaustive coverage matching the 12-section standard.
-* [-] **In Progress**: Drafted or active development.
-* [ ] **Planned**: Scheduled for rollout.
+> An architectural syllabus and topic index cataloging all 154 chapters across the 25 core knowledge domains of **The DSA Handbook**. Every chapter includes invariant-first formal specifications, asymptotic proofs, memory models, and verified implementations in Python and C++17.
 
 ---
 
-## Phase 1: Core Foundations & Universal Structures
+## Phase 1: Foundations & Core Structures
 
 ### [00] Learning Paths
-- [x] [`beginner-path.md`](docs/00-learning-paths/beginner-path.md)
-- [x] [`interview-path.md`](docs/00-learning-paths/interview-path.md)
-- [x] [`competitive-programming-path.md`](docs/00-learning-paths/competitive-programming-path.md)
-- [x] [`systems-engineer-path.md`](docs/00-learning-paths/systems-engineer-path.md)
-- [x] [`theory-path.md`](docs/00-learning-paths/theory-path.md)
+*Structured navigational curricula tailored to specific professional backgrounds.*
+
+* [Beginner Learning Path: Zero to Algorithmic Competence](docs/00-learning-paths/beginner-path.md)
+* [Competitive Programming Learning Path: From Div 2 to Candidate Master & Beyond](docs/00-learning-paths/competitive-programming-path.md)
+* [Technical Interview Learning Path: High-Yield Patterns & Communication Protocol](docs/00-learning-paths/interview-path.md)
+* [Systems Engineer Learning Path: Low-Level Architecture & High-Throughput Engines](docs/00-learning-paths/systems-engineer-path.md)
+* [Theoretical Computer Science Learning Path: Proofs, Asymptotics & Complexity](docs/00-learning-paths/theory-path.md)
 
 ### [01] Mathematical Foundations
-- [x] [`logic-and-proof-techniques.md`](docs/01-mathematical-foundations/logic-and-proof-techniques.md)
-- [x] [`sets-functions-relations.md`](docs/01-mathematical-foundations/sets-functions-relations.md)
-- [x] [`summations-and-series.md`](docs/01-mathematical-foundations/summations-and-series.md)
-- [x] [`recurrence-relations.md`](docs/01-mathematical-foundations/recurrence-relations.md)
-- [x] [`combinatorics.md`](docs/01-mathematical-foundations/combinatorics.md)
-- [x] [`probability-basics.md`](docs/01-mathematical-foundations/probability-basics.md)
-- [x] [`expected-value-and-random-variables.md`](docs/01-mathematical-foundations/expected-value-and-random-variables.md)
-- [x] [`generating-functions-intuition.md`](docs/01-mathematical-foundations/generating-functions-intuition.md)
-- [x] [`number-theory-basics.md`](docs/01-mathematical-foundations/number-theory-basics.md)
-- [x] [`linear-algebra-for-algorithms.md`](docs/01-mathematical-foundations/linear-algebra-for-algorithms.md)
+*Discrete mathematics, formal proof techniques, combinatorics, and probability.*
+
+* [Combinatorics](docs/01-mathematical-foundations/combinatorics.md)
+* [Expected Value & Random Variables in Algorithm Analysis](docs/01-mathematical-foundations/expected-value-and-random-variables.md)
+* [Generating Functions: Combinatorial Clotheslines & Recurrence Solvers](docs/01-mathematical-foundations/generating-functions-intuition.md)
+* [Linear Algebra for Algorithms: Matrices, Spectral Graphs & XOR Bases](docs/01-mathematical-foundations/linear-algebra-for-algorithms.md)
+* [Logic and Proof Techniques](docs/01-mathematical-foundations/logic-and-proof-techniques.md)
+* [Number Theory Basics](docs/01-mathematical-foundations/number-theory-basics.md)
+* [Probability Basics](docs/01-mathematical-foundations/probability-basics.md)
+* [Recurrence Relations](docs/01-mathematical-foundations/recurrence-relations.md)
+* [Sets, Functions, and Relations](docs/01-mathematical-foundations/sets-functions-relations.md)
+* [Summations and Series](docs/01-mathematical-foundations/summations-and-series.md)
 
 ### [02] Analysis & Complexity
-- [x] [`asymptotic-analysis.md`](docs/02-analysis-and-complexity/asymptotic-analysis.md)
-- [x] [`amortized-analysis.md`](docs/02-analysis-and-complexity/amortized-analysis.md)
-- [x] [`worst-average-smoothed-analysis.md`](docs/02-analysis-and-complexity/worst-average-smoothed-analysis.md)
-- [x] [`lower-bounds-and-adversaries.md`](docs/02-analysis-and-complexity/lower-bounds-and-adversaries.md)
-- [x] [`reductions-and-hardness-intuition.md`](docs/02-analysis-and-complexity/reductions-and-hardness-intuition.md)
-- [x] [`master-theorem-and-beyond.md`](docs/02-analysis-and-complexity/master-theorem-and-beyond.md)
-- [x] [`akra-bazzi-method.md`](docs/02-analysis-and-complexity/akra-bazzi-method.md)
-- [x] [`randomized-analysis.md`](docs/02-analysis-and-complexity/randomized-analysis.md)
+*Asymptotics, potential method amortized analysis, Akra-Bazzi, and lower bounds.*
+
+* [The Akra-Bazzi Method: Solving General Divide-and-Conquer Recurrences](docs/02-analysis-and-complexity/akra-bazzi-method.md)
+* [Amortized Analysis](docs/02-analysis-and-complexity/amortized-analysis.md)
+* [Asymptotic Analysis](docs/02-analysis-and-complexity/asymptotic-analysis.md)
+* [Lower Bounds & Adversary Arguments: Proving Algorithmic Limits](docs/02-analysis-and-complexity/lower-bounds-and-adversaries.md)
+* [Master Theorem and Beyond](docs/02-analysis-and-complexity/master-theorem-and-beyond.md)
+* [Randomized Analysis: Concentration Bounds, Las Vegas & Monte Carlo](docs/02-analysis-and-complexity/randomized-analysis.md)
+* [Reductions and Hardness Intuition: P, NP, and Fine-Grained Complexity](docs/02-analysis-and-complexity/reductions-and-hardness-intuition.md)
+* [Worst, Average, and Smoothed Analysis: Beyond Pessimism](docs/02-analysis-and-complexity/worst-average-smoothed-analysis.md)
 
 ### [03] Machine Model & Performance
-- [x] [`ram-model-vs-real-machines.md`](docs/03-machine-model-and-performance/ram-model-vs-real-machines.md)
-- [x] [`cpu-cache-and-memory.md`](docs/03-machine-model-and-performance/cpu-cache-and-memory.md)
-- [x] [`branch-prediction-and-pipelines.md`](docs/03-machine-model-and-performance/branch-prediction-and-pipelines.md)
-- [x] [`memory-allocation-and-fragmentation.md`](docs/03-machine-model-and-performance/memory-allocation-and-fragmentation.md)
-- [x] [`locality-and-data-oriented-design.md`](docs/03-machine-model-and-performance/locality-and-data-oriented-design.md)
-- [x] [`simd-and-vectorization-intuition.md`](docs/03-machine-model-and-performance/simd-and-vectorization-intuition.md)
-- [x] [`benchmarking-pitfalls.md`](docs/03-machine-model-and-performance/benchmarking-pitfalls.md)
+*Physical hardware realities: L1/L2/L3 cache hierarchies, branch predictors, SIMD, and memory allocators.*
+
+* [Benchmarking Pitfalls and Measurement Science](docs/03-machine-model-and-performance/benchmarking-pitfalls.md)
+* [Branch Prediction and CPU Pipelines](docs/03-machine-model-and-performance/branch-prediction-and-pipelines.md)
+* [CPU Cache, Memory Hierarchy & Data Locality](docs/03-machine-model-and-performance/cpu-cache-and-memory.md)
+* [Locality and Data-Oriented Design](docs/03-machine-model-and-performance/locality-and-data-oriented-design.md)
+* [Memory Allocation and Fragmentation](docs/03-machine-model-and-performance/memory-allocation-and-fragmentation.md)
+* [RAM Model vs Real Machines](docs/03-machine-model-and-performance/ram-model-vs-real-machines.md)
+* [SIMD and Vectorization Intuition](docs/03-machine-model-and-performance/simd-and-vectorization-intuition.md)
 
 ### [04] Linear Data Structures
-- [x] [`arrays-and-memory-layout.md`](docs/04-linear-data-structures/arrays-and-memory-layout.md)
-- [x] [`dynamic-arrays-and-strings.md`](docs/04-linear-data-structures/dynamic-arrays-and-strings.md)
-- [x] [`linked-lists.md`](docs/04-linear-data-structures/linked-lists.md)
-- [x] [`stacks-and-queues.md`](docs/04-linear-data-structures/stacks-and-queues.md)
-- [x] [`deques.md`](docs/04-linear-data-structures/deques.md)
-- [x] [`ring-buffers.md`](docs/04-linear-data-structures/ring-buffers.md)
-- [x] [`ropes-gap-buffers-piece-tables.md`](docs/04-linear-data-structures/ropes-gap-buffers-piece-tables.md)
-- [x] [`bitsets-and-bitvectors.md`](docs/04-linear-data-structures/bitsets-and-bitvectors.md)
-- [x] [`disjoint-set-union.md`](docs/04-linear-data-structures/disjoint-set-union.md)
+*Contiguous and node-based linear memory layouts, ring buffers, and disjoint sets.*
+
+* [Arrays and Memory Layout](docs/04-linear-data-structures/arrays-and-memory-layout.md)
+* [Bitsets and Bitvectors](docs/04-linear-data-structures/bitsets-and-bitvectors.md)
+* [Deques (Double-Ended Queues)](docs/04-linear-data-structures/deques.md)
+* [Disjoint Set Union](docs/04-linear-data-structures/disjoint-set-union.md)
+* [Dynamic Arrays and Strings](docs/04-linear-data-structures/dynamic-arrays-and-strings.md)
+* [Linked Lists](docs/04-linear-data-structures/linked-lists.md)
+* [Ring Buffers](docs/04-linear-data-structures/ring-buffers.md)
+* [Ropes, Gap Buffers, and Piece Tables](docs/04-linear-data-structures/ropes-gap-buffers-piece-tables.md)
+* [Stacks and Queues](docs/04-linear-data-structures/stacks-and-queues.md)
 
 ### [05] Trees & Hierarchical Structures
-- [x] [`tree-basics-and-traversals.md`](docs/05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
-- [x] [`binary-search-trees.md`](docs/05-trees-and-hierarchical-structures/binary-search-trees.md)
-- [x] [`avl-and-red-black-trees.md`](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
-- [x] [`splay-trees.md`](docs/05-trees-and-hierarchical-structures/splay-trees.md)
-- [x] [`treaps.md`](docs/05-trees-and-hierarchical-structures/treaps.md)
-- [x] [`scapegoat-and-aa-trees.md`](docs/05-trees-and-hierarchical-structures/scapegoat-and-aa-trees.md)
-- [x] [`b-trees-and-b-plus-trees.md`](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
-- [x] [`order-statistic-trees.md`](docs/05-trees-and-hierarchical-structures/order-statistic-trees.md)
-- [x] [`interval-trees.md`](docs/05-trees-and-hierarchical-structures/interval-trees.md)
-- [x] [`segment-trees.md`](docs/05-trees-and-hierarchical-structures/segment-trees.md)
-- [x] [`fenwick-trees.md`](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
-- [x] [`tries-and-radix-trees.md`](docs/05-trees-and-hierarchical-structures/tries-and-radix-trees.md)
+*Search trees, balanced hierarchies, multiway trees, and prefix trees.*
+
+* [AVL and Red-Black Trees](docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
+* [B-Trees & B+ Trees: Principles, Paging & Storage Engines](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
+* [Binary Search Trees](docs/05-trees-and-hierarchical-structures/binary-search-trees.md)
+* [Fenwick Trees (Binary Indexed Trees): Theory, Bitwise Mechanics & Multi-Dimensional Variants](docs/05-trees-and-hierarchical-structures/fenwick-trees.md)
+* [Interval Trees](docs/05-trees-and-hierarchical-structures/interval-trees.md)
+* [Order-Statistic Trees](docs/05-trees-and-hierarchical-structures/order-statistic-trees.md)
+* [Scapegoat and AA Trees](docs/05-trees-and-hierarchical-structures/scapegoat-and-aa-trees.md)
+* [Segment Trees: Interval Decomposition, Lazy Propagation & Range Algebra](docs/05-trees-and-hierarchical-structures/segment-trees.md)
+* [Splay Trees](docs/05-trees-and-hierarchical-structures/splay-trees.md)
+* [Treaps (Cartesian Trees)](docs/05-trees-and-hierarchical-structures/treaps.md)
+* [Tree Basics and Traversals](docs/05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
+* [Tries and Radix Trees](docs/05-trees-and-hierarchical-structures/tries-and-radix-trees.md)
 
 ### [06] Heaps, Priority & Selection
-- [x] [`binary-heaps.md`](docs/06-heaps-priority-and-selection/binary-heaps.md)
-- [x] [`d-ary-heaps.md`](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
-- [x] [`binomial-heaps.md`](docs/06-heaps-priority-and-selection/binomial-heaps.md)
-- [x] [`fibonacci-heaps.md`](docs/06-heaps-priority-and-selection/fibonacci-heaps.md)
-- [x] [`pairing-heaps.md`](docs/06-heaps-priority-and-selection/pairing-heaps.md)
-- [x] [`priority-queues-in-practice.md`](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
-- [x] [`quickselect-and-median-of-medians.md`](docs/06-heaps-priority-and-selection/quickselect-and-median-of-medians.md)
-- [x] [`median-maintenance.md`](docs/06-heaps-priority-and-selection/median-maintenance.md)
-- [x] [`indexed-priority-queues.md`](docs/06-heaps-priority-and-selection/indexed-priority-queues.md)
+*Priority queues, mergeable heaps, linear-time selection, and dynamic medians.*
 
-### [07] Hashing, Randomization & Probabilistic
-- [x] [`hash-functions.md`](docs/07-hashing-randomization-and-probabilistic/hash-functions.md)
-- [x] [`hash-tables-and-collisions.md`](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
-- [x] [`robin-hood-cuckoo-and-hopscotch-hashing.md`](docs/07-hashing-randomization-and-probabilistic/robin-hood-cuckoo-and-hopscotch-hashing.md)
-- [x] [`consistent-hashing.md`](docs/07-hashing-randomization-and-probabilistic/consistent-hashing.md)
-- [x] [`bloom-and-cuckoo-filters.md`](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
-- [x] [`hyperloglog.md`](docs/07-hashing-randomization-and-probabilistic/hyperloglog.md)
-- [x] [`skip-lists.md`](docs/07-hashing-randomization-and-probabilistic/skip-lists.md)
+* [Binary Heaps](docs/06-heaps-priority-and-selection/binary-heaps.md)
+* [Binomial Heaps](docs/06-heaps-priority-and-selection/binomial-heaps.md)
+* [d-ary Heaps](docs/06-heaps-priority-and-selection/d-ary-heaps.md)
+* [Fibonacci Heaps](docs/06-heaps-priority-and-selection/fibonacci-heaps.md)
+* [Indexed Priority Queues](docs/06-heaps-priority-and-selection/indexed-priority-queues.md)
+* [Median Maintenance](docs/06-heaps-priority-and-selection/median-maintenance.md)
+* [Pairing Heaps](docs/06-heaps-priority-and-selection/pairing-heaps.md)
+* [Priority Queues in Practice](docs/06-heaps-priority-and-selection/priority-queues-in-practice.md)
+* [Quickselect and Median of Medians](docs/06-heaps-priority-and-selection/quickselect-and-median-of-medians.md)
+
+### [07] Hashing, Randomization & Probabilistic Structures
+*Open addressing, collision resolution, membership filters, and cardinality estimators.*
+
+* [Bloom and Cuckoo Filters](docs/07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
+* [Consistent Hashing and Distributed Partitioning](docs/07-hashing-randomization-and-probabilistic/consistent-hashing.md)
+* [Hash Functions](docs/07-hashing-randomization-and-probabilistic/hash-functions.md)
+* [Hash Tables and Collisions](docs/07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
+* [HyperLogLog and Cardinality Estimation](docs/07-hashing-randomization-and-probabilistic/hyperloglog.md)
+* [Robin Hood, Cuckoo, and Hopscotch Hashing](docs/07-hashing-randomization-and-probabilistic/robin-hood-cuckoo-and-hopscotch-hashing.md)
+* [Skip Lists](docs/07-hashing-randomization-and-probabilistic/skip-lists.md)
 
 ### [08] Graphs & Network Algorithms
-- [x] [`graph-representations.md`](docs/08-graphs-and-network-algorithms/graph-representations.md)
-- [x] [`bfs-dfs-and-traversal-patterns.md`](docs/08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
-- [x] [`topological-sort.md`](docs/08-graphs-and-network-algorithms/topological-sort.md)
-- [x] [`shortest-paths.md`](docs/08-graphs-and-network-algorithms/shortest-paths.md)
-- [x] [`all-pairs-shortest-paths.md`](docs/08-graphs-and-network-algorithms/all-pairs-shortest-paths.md)
-- [x] [`minimum-spanning-trees.md`](docs/08-graphs-and-network-algorithms/minimum-spanning-trees.md)
-- [x] [`strongly-connected-components.md`](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
-- [x] [`lowest-common-ancestor.md`](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
-- [x] [`network-flow-and-push-relabel.md`](docs/08-graphs-and-network-algorithms/network-flow-and-push-relabel.md)
+*Graph traversals, shortest path DAGs, minimum spanning trees, and network flow.*
+
+* [All-Pairs Shortest Paths](docs/08-graphs-and-network-algorithms/all-pairs-shortest-paths.md)
+* [BFS DFS and Traversal Patterns](docs/08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
+* [Graph Representations](docs/08-graphs-and-network-algorithms/graph-representations.md)
+* [Lowest Common Ancestor (LCA): Algorithms, RMQ Reduction & Systems Applications](docs/08-graphs-and-network-algorithms/lowest-common-ancestor.md)
+* [Minimum Spanning Trees](docs/08-graphs-and-network-algorithms/minimum-spanning-trees.md)
+* [Network Flow and the Push-Relabel Algorithm](docs/08-graphs-and-network-algorithms/network-flow-and-push-relabel.md)
+* [Shortest Paths](docs/08-graphs-and-network-algorithms/shortest-paths.md)
+* [Strongly Connected Components](docs/08-graphs-and-network-algorithms/strongly-connected-components.md)
+* [Topological Sort](docs/08-graphs-and-network-algorithms/topological-sort.md)
 
 ### [09] Algorithm Design Paradigms
-- [x] [`recursion-and-backtracking.md`](docs/09-algorithm-design-paradigms/recursion-and-backtracking.md)
-- [x] [`divide-and-conquer.md`](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
-- [x] [`greedy-algorithms.md`](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
-- [x] [`dynamic-programming-intuition.md`](docs/09-algorithm-design-paradigms/dynamic-programming-intuition.md)
-- [x] [`branch-and-bound.md`](docs/09-algorithm-design-paradigms/branch-and-bound.md)
-- [x] [`meet-in-the-middle.md`](docs/09-algorithm-design-paradigms/meet-in-the-middle.md)
+*Universal algorithmic strategies: divide & conquer, greedy, backtracking, and meet-in-the-middle.*
+
+* [Branch and Bound](docs/09-algorithm-design-paradigms/branch-and-bound.md)
+* [Divide and Conquer](docs/09-algorithm-design-paradigms/divide-and-conquer.md)
+* [Dynamic Programming Intuition](docs/09-algorithm-design-paradigms/dynamic-programming-intuition.md)
+* [Greedy Algorithms](docs/09-algorithm-design-paradigms/greedy-algorithms.md)
+* [Meet-in-the-Middle](docs/09-algorithm-design-paradigms/meet-in-the-middle.md)
+* [Recursion and Backtracking](docs/09-algorithm-design-paradigms/recursion-and-backtracking.md)
 
 ### [10] Dynamic Programming
-- [x] [`1d-and-2d-foundations.md`](docs/10-dynamic-programming/1d-and-2d-foundations.md)
-- [x] [`longest-increasing-subsequence.md`](docs/10-dynamic-programming/longest-increasing-subsequence.md)
-- [x] [`knapsack-family.md`](docs/10-dynamic-programming/knapsack-family.md)
-- [x] [`edit-distance-and-sequence-alignment.md`](docs/10-dynamic-programming/edit-distance-and-sequence-alignment.md)
-- [x] [`longest-common-subsequence.md`](docs/10-dynamic-programming/longest-common-subsequence.md)
-- [x] [`interval-and-matrix-dp.md`](docs/10-dynamic-programming/interval-and-matrix-dp.md)
-- [x] [`tree-dp.md`](docs/10-dynamic-programming/tree-dp.md)
-- [x] [`bitmask-and-state-compression.md`](docs/10-dynamic-programming/bitmask-and-state-compression.md)
+*Optimal substructure, memoization, tree DP, and state compression.*
+
+* [1D and 2D Dynamic Programming Foundations](docs/10-dynamic-programming/1d-and-2d-foundations.md)
+* [Bitmask and State Compression](docs/10-dynamic-programming/bitmask-and-state-compression.md)
+* [Edit Distance and Sequence Alignment](docs/10-dynamic-programming/edit-distance-and-sequence-alignment.md)
+* [Interval and Matrix DP](docs/10-dynamic-programming/interval-and-matrix-dp.md)
+* [The Knapsack Problem Family](docs/10-dynamic-programming/knapsack-family.md)
+* [Longest Common Subsequence](docs/10-dynamic-programming/longest-common-subsequence.md)
+* [Longest Increasing Subsequence](docs/10-dynamic-programming/longest-increasing-subsequence.md)
+* [Tree DP](docs/10-dynamic-programming/tree-dp.md)
 
 ### [19] Problem-Solving Patterns
-- [x] [`two-pointers.md`](docs/19-problem-solving-patterns/two-pointers.md)
-- [x] [`sliding-window.md`](docs/19-problem-solving-patterns/sliding-window.md)
-- [x] [`monotonic-stack-and-queue.md`](docs/19-problem-solving-patterns/monotonic-stack-and-queue.md)
-- [x] [`interval-scheduling.md`](docs/19-problem-solving-patterns/interval-scheduling.md)
-- [x] [`binary-search-on-answer.md`](docs/19-problem-solving-patterns/binary-search-on-answer.md)
+*Canonical algorithmic patterns: two pointers, sliding window, and monotonic structures.*
+
+* [Binary Search on Answer](docs/19-problem-solving-patterns/binary-search-on-answer.md)
+* [Interval Scheduling](docs/19-problem-solving-patterns/interval-scheduling.md)
+* [Monotonic Stack and Queue](docs/19-problem-solving-patterns/monotonic-stack-and-queue.md)
+* [Sliding Window](docs/19-problem-solving-patterns/sliding-window.md)
+* [Two Pointers: Converging, Partitioning & Fast-Slow Pointers](docs/19-problem-solving-patterns/two-pointers.md)
 
 ---
 
-## Phase 2: Advanced Data Structures & Competitive Programming
+## Phase 2: Advanced Structures & Text Processing
 
 ### [11] Strings, Text & Pattern Matching
-- [x] [`prefix-function-and-kmp.md`](docs/11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
-- [x] [`z-algorithm.md`](docs/11-strings-text-and-pattern-matching/z-algorithm.md)
-- [x] [`rabin-karp-and-rolling-hash.md`](docs/11-strings-text-and-pattern-matching/rabin-karp-and-rolling-hash.md)
-- [x] [`aho-corasick.md`](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
-- [x] [`suffix-array.md`](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
-- [x] [`suffix-tree.md`](docs/11-strings-text-and-pattern-matching/suffix-tree.md)
-- [x] [`suffix-automaton.md`](docs/11-strings-text-and-pattern-matching/suffix-automaton.md)
-- [x] [`manacher-algorithm.md`](docs/11-strings-text-and-pattern-matching/manacher-algorithm.md)
+*Exact string matching, border arrays, suffix data structures, and text automata.*
 
-### [12] Range Query & Offline Structures
-- [x] [`prefix-sums-and-difference-arrays.md`](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
-- [x] [`sparse-tables.md`](docs/12-range-query-and-offline-structures/sparse-tables.md)
-- [x] [`sqrt-decomposition.md`](docs/12-range-query-and-offline-structures/sqrt-decomposition.md)
-- [x] [`mo-algorithm.md`](docs/12-range-query-and-offline-structures/mo-algorithm.md)
-- [x] [`offline-query-processing.md`](docs/12-range-query-and-offline-structures/offline-query-processing.md)
-- [x] [`range-minimum-query.md`](docs/12-range-query-and-offline-structures/range-minimum-query.md)
-- [x] [`range-updates-and-lazy-propagation.md`](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
+* [Aho-Corasick](docs/11-strings-text-and-pattern-matching/aho-corasick.md)
+* [Manacher's Algorithm](docs/11-strings-text-and-pattern-matching/manacher-algorithm.md)
+* [Prefix Function and KMP](docs/11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
+* [Rabin-Karp and Rolling Hash](docs/11-strings-text-and-pattern-matching/rabin-karp-and-rolling-hash.md)
+* [Suffix Arrays and LCP](docs/11-strings-text-and-pattern-matching/suffix-arrays-and-lcp.md)
+* [Suffix Automaton (DAWG)](docs/11-strings-text-and-pattern-matching/suffix-automaton.md)
+* [Suffix Tree: Ukkonen's Online Linear-Time Construction and Suffix Links](docs/11-strings-text-and-pattern-matching/suffix-tree.md)
+* [Z-Algorithm and String Borders](docs/11-strings-text-and-pattern-matching/z-algorithm.md)
+
+### [12] Range Queries & Offline Structures
+*Static and dynamic range query engines, lazy propagation, and Mo's query decomposition.*
+
+* [Mo's Algorithm: Query Square Root Decomposition, Hilbert Curves, and Offline Range Queries](docs/12-range-query-and-offline-structures/mo-algorithm.md)
+* [Offline Query Processing: CDQ Divide-and-Conquer, Sweep-Line Structures, and Multi-Dimensional Reductions](docs/12-range-query-and-offline-structures/offline-query-processing.md)
+* [Prefix Sums and Difference Arrays](docs/12-range-query-and-offline-structures/prefix-sums-and-difference-arrays.md)
+* [Range Minimum Query](docs/12-range-query-and-offline-structures/range-minimum-query.md)
+* [Range Updates and Lazy Propagation](docs/12-range-query-and-offline-structures/range-updates-and-lazy-propagation.md)
+* [Sparse Tables](docs/12-range-query-and-offline-structures/sparse-tables.md)
+* [Square Root (Sqrt) Decomposition](docs/12-range-query-and-offline-structures/sqrt-decomposition.md)
 
 ### [13] Geometric & Spatial Algorithms
-- [x] [`computational-geometry-basics.md`](docs/13-geometric-and-spatial-algorithms/computational-geometry-basics.md)
-- [x] [`line-sweep.md`](docs/13-geometric-and-spatial-algorithms/line-sweep.md)
-- [x] [`convex-hull.md`](docs/13-geometric-and-spatial-algorithms/convex-hull.md)
-- [x] [`closest-pair-of-points.md`](docs/13-geometric-and-spatial-algorithms/closest-pair-of-points.md)
-- [x] [`kd-trees.md`](docs/13-geometric-and-spatial-algorithms/kd-trees.md)
-- [x] [`r-trees.md`](docs/13-geometric-and-spatial-algorithms/r-trees.md)
+*Computational geometry primitives, convex hulls, line sweep, and spatial partitioning.*
+
+* [Closest Pair of Points: Divide-and-Conquer and Spatial Pruning](docs/13-geometric-and-spatial-algorithms/closest-pair-of-points.md)
+* [Computational Geometry Basics: Primitives, Exact Predicates, and Intersections](docs/13-geometric-and-spatial-algorithms/computational-geometry-basics.md)
+* [Convex Hull: Andrew's Monotone Chain, Graham Scan, and Jarvis March](docs/13-geometric-and-spatial-algorithms/convex-hull.md)
+* [KD-Trees: Multidimensional Space Partitioning and Nearest-Neighbor Search](docs/13-geometric-and-spatial-algorithms/kd-trees.md)
+* [Line Sweep and Segment Intersections: Shamos-Hoey and Bentley-Ottmann](docs/13-geometric-and-spatial-algorithms/line-sweep.md)
+* [R-Trees: Minimum Bounding Rectangles, Quadratic Split, and Spatial Indexing](docs/13-geometric-and-spatial-algorithms/r-trees.md)
 
 ### [14] Advanced Data Structures
-- [x] [`van-emde-boas-trees.md`](docs/14-advanced-data-structures/van-emde-boas-trees.md)
-- [x] [`x-fast-and-y-fast-tries.md`](docs/14-advanced-data-structures/x-fast-and-y-fast-tries.md)
-- [x] [`fusion-trees.md`](docs/14-advanced-data-structures/fusion-trees.md)
-- [x] [`persistent-data-structures.md`](docs/14-advanced-data-structures/persistent-data-structures.md)
-- [x] [`link-cut-trees.md`](docs/14-advanced-data-structures/link-cut-trees.md)
-- [x] [`wavelet-trees.md`](docs/14-advanced-data-structures/wavelet-trees.md)
-- [x] [`succinct-data-structures.md`](docs/14-advanced-data-structures/succinct-data-structures.md)
+*Word-RAM models, integer priority structures, dynamic trees, and succinct bitvectors.*
+
+* [Fusion Trees: Breaking the Comparison Lower Bound on the Word RAM](docs/14-advanced-data-structures/fusion-trees.md)
+* [Link-Cut Trees](docs/14-advanced-data-structures/link-cut-trees.md)
+* [Persistent Segment Trees and Path Copying](docs/14-advanced-data-structures/persistent-data-structures.md)
+* [Succinct Data Structures: Rank and Select on Bitvectors](docs/14-advanced-data-structures/succinct-data-structures.md)
+* [van Emde Boas Trees and Cache-Oblivious Layouts](docs/14-advanced-data-structures/van-emde-boas-trees.md)
+* [Wavelet Trees: Succinct Multiset Representation & Range Quantile Engine](docs/14-advanced-data-structures/wavelet-trees.md)
+* [X-Fast and Y-Fast Tries: Bitwise Predecessor Search on the Word RAM](docs/14-advanced-data-structures/x-fast-and-y-fast-tries.md)
 
 ---
 
-## Phase 3: Systems, Concurrency, Proofs & Production
+## Phase 3: Systems, Concurrency, Hardware & Verification
 
-### [15] External Memory & Streaming
-- [x] [`io-model-and-external-memory.md`](docs/15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
-- [x] [`external-sorting.md`](docs/15-external-memory-cache-oblivious-and-streaming/external-sorting.md)
-- [x] [`lsm-trees.md`](docs/15-external-memory-cache-oblivious-and-streaming/lsm-trees.md)
-- [x] [`streaming-models.md`](docs/15-external-memory-cache-oblivious-and-streaming/streaming-models.md)
-- [x] [`count-min-sketch.md`](docs/15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
+### [15] External Memory, Cache-Oblivious & Streaming
+*I/O-complexity models, multi-way external sorting, LSM storage engines, and streaming sketches.*
 
-### [16] Parallel, Concurrent & Lock-Free
-- [x] [`parallel-algorithm-basics.md`](docs/16-parallel-concurrent-and-lock-free/parallel-algorithm-basics.md)
-- [x] [`concurrent-queues-and-stacks.md`](docs/16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
-- [x] [`lock-free-and-wait-free-basics.md`](docs/16-parallel-concurrent-and-lock-free/lock-free-and-wait-free-basics.md)
-- [x] [`aba-problem.md`](docs/16-parallel-concurrent-and-lock-free/aba-problem.md)
-- [x] [`hazard-pointers-and-epoch-reclamation.md`](docs/16-parallel-concurrent-and-lock-free/hazard-pointers-and-epoch-reclamation.md)
-- [x] [`work-stealing-deques.md`](docs/16-parallel-concurrent-and-lock-free/work-stealing-deques.md)
+* [Count-Min Sketch and Frequency Estimation](docs/15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
+* [Multi-Way External Merge Sort](docs/15-external-memory-cache-oblivious-and-streaming/external-sorting.md)
+* [The External Memory (I/O) Model](docs/15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
+* [Log-Structured Merge-Trees (LSM-Trees): Write-Optimized Storage & Leveled Compaction](docs/15-external-memory-cache-oblivious-and-streaming/lsm-trees.md)
+* [Streaming Models & Algorithms: Single-Pass Sublinear Analytics](docs/15-external-memory-cache-oblivious-and-streaming/streaming-models.md)
+
+### [16] Parallel, Concurrent & Lock-Free Structures
+*Work-depth parallel models, non-blocking synchronization, ABA resolution, and hazard pointers.*
+
+* [The ABA Problem & CAS Pitfalls: Memory Recycling in Lock-Free Systems](docs/16-parallel-concurrent-and-lock-free/aba-problem.md)
+* [Concurrent Queues, Stacks & Safe Memory Reclamation](docs/16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
+* [Safe Memory Reclamation: Hazard Pointers & Epoch-Based Reclamation](docs/16-parallel-concurrent-and-lock-free/hazard-pointers-and-epoch-reclamation.md)
+* [Lock-Free and Wait-Free Basics: Progress Guarantees & Consensus](docs/16-parallel-concurrent-and-lock-free/lock-free-and-wait-free-basics.md)
+* [Parallel Algorithm Basics: The Work-Depth Model & Algorithmic Primitives](docs/16-parallel-concurrent-and-lock-free/parallel-algorithm-basics.md)
+* [Work-Stealing Deques: The Chase-Lev Lock-Free Deque](docs/16-parallel-concurrent-and-lock-free/work-stealing-deques.md)
 
 ### [17] Cryptographic & Merkle Structures
-- [x] [`merkle-trees.md`](docs/17-cryptographic-and-merkle-like-structures/merkle-trees.md)
-- [x] [`authenticated-data-structures.md`](docs/17-cryptographic-and-merkle-like-structures/authenticated-data-structures.md)
+*Verifiable data structures, authenticated dictionaries, and cryptographic proof systems.*
+
+* [Authenticated Data Structures: Verifiable Outsourced Storage & Non-Membership Proofs](docs/17-cryptographic-and-merkle-like-structures/authenticated-data-structures.md)
+* [Merkle Trees: Cryptographic Hash Trees & Audit Proofs](docs/17-cryptographic-and-merkle-like-structures/merkle-trees.md)
 
 ### [18] Systems Case Studies
-- [x] [`storage-engines-breakdown.md`](docs/18-systems-case-studies/storage-engines-breakdown.md)
-- [x] [`linux-kernel-internals.md`](docs/18-systems-case-studies/linux-kernel-internals.md)
-- [x] [`high-performance-caching.md`](docs/18-systems-case-studies/high-performance-caching.md)
-- [x] [`distributed-state-engines.md`](docs/18-systems-case-studies/distributed-state-engines.md)
+*Production implementations in the Linux kernel, PostgreSQL, RocksDB, and distributed state machines.*
+
+* [Distributed State Engines: Consistent Hashing, Vector Clocks & Raft Consensus](docs/18-systems-case-studies/distributed-state-engines.md)
+* [High-Performance Caching: 2Q, ARC & Window TinyLFU](docs/18-systems-case-studies/high-performance-caching.md)
+* [Linux Kernel Internals: Intrusive Structures, CFS Scheduler & RCU](docs/18-systems-case-studies/linux-kernel-internals.md)
+* [Storage Engine Breakdown: LSM-Trees, B-Trees & Bitcask](docs/18-systems-case-studies/storage-engines-breakdown.md)
 
 ### [20] Proof Techniques & Correctness
-- [x] [`induction.md`](docs/20-proof-techniques-and-correctness/induction.md)
-- [x] [`loop-invariants.md`](docs/20-proof-techniques-and-correctness/loop-invariants.md)
-- [x] [`exchange-arguments.md`](docs/20-proof-techniques-and-correctness/exchange-arguments.md)
-- [x] [`cut-and-cycle-properties.md`](docs/20-proof-techniques-and-correctness/cut-and-cycle-properties.md)
+*Mathematical induction, loop invariants, exchange arguments, and matroid properties.*
+
+* [Cut and Cycle Properties in Graphs and Spanning Trees](docs/20-proof-techniques-and-correctness/cut-and-cycle-properties.md)
+* [Greedy Exchange Arguments](docs/20-proof-techniques-and-correctness/exchange-arguments.md)
+* [Mathematical Induction in Algorithm Correctness](docs/20-proof-techniques-and-correctness/induction.md)
+* [Loop Invariants and Correctness](docs/20-proof-techniques-and-correctness/loop-invariants.md)
 
 ### [21] Implementation Engineering
-- [x] [`api-design-for-data-structures.md`](docs/21-implementation-engineering/api-design-for-data-structures.md)
-- [x] [`testing-data-structures.md`](docs/21-implementation-engineering/testing-data-structures.md)
-- [x] [`fuzzing-and-property-testing.md`](docs/21-implementation-engineering/fuzzing-and-property-testing.md)
+*Industrial software engineering: robust API design, property-based testing, and fuzzing.*
+
+* [API Design for Data Structures](docs/21-implementation-engineering/api-design-for-data-structures.md)
+* [Fuzzing and Property-Based Testing](docs/21-implementation-engineering/fuzzing-and-property-testing.md)
+* [Testing Data Structures](docs/21-implementation-engineering/testing-data-structures.md)
 
 ### [22] Benchmarking & Tradeoffs
-- [x] [`theoretical-vs-practical-performance.md`](docs/22-benchmarking-and-tradeoffs/theoretical-vs-practical-performance.md)
-- [x] [`benchmark-design.md`](docs/22-benchmarking-and-tradeoffs/benchmark-design.md)
-- [x] [`choosing-the-right-data-structure.md`](docs/22-benchmarking-and-tradeoffs/choosing-the-right-data-structure.md)
+*Empirical performance measurement, hardware performance counters, and selection matrices.*
 
-### [23] Classics & Papers
-- [x] [`classic-papers-reading-list.md`](docs/23-history-papers-and-classics/classic-papers-reading-list.md)
-- [x] [`landmark-data-structures.md`](docs/23-history-papers-and-classics/landmark-data-structures.md)
+* [Benchmark Design: Scientific Methodology & Performance Engineering](docs/22-benchmarking-and-tradeoffs/benchmark-design.md)
+* [Choosing the Right Data Structure](docs/22-benchmarking-and-tradeoffs/choosing-the-right-data-structure.md)
+* [Theoretical vs Practical Performance](docs/22-benchmarking-and-tradeoffs/theoretical-vs-practical-performance.md)
+
+### [23] Classics & Landmark Papers
+*Foundational academic literature and the historical genesis of canonical data structures.*
+
+* [Classic Papers Reading List: The Foundational Canon of Data Structures & Algorithms](docs/23-history-papers-and-classics/classic-papers-reading-list.md)
+* [Landmark Data Structures: Architectural Evolution & Historical Milestones](docs/23-history-papers-and-classics/landmark-data-structures.md)
 
 ### [24] Exercises & Problem Sets
-- [x] [`topic-index.md`](docs/24-exercises-and-curated-problems/topic-index.md)
-- [x] [`contest-and-interview-mapping.md`](docs/24-exercises-and-curated-problems/contest-and-interview-mapping.md)
+*Categorized practice taxonomies mapped to competitive programming and technical interviews.*
+
+* [Contest and Interview Problem Mapping: Curated Practice Matrix](docs/24-exercises-and-curated-problems/contest-and-interview-mapping.md)
+* [Master Topic Index & Global DSA Taxonomy](docs/24-exercises-and-curated-problems/topic-index.md)
+
+---
+
+## Future Research Horizons & Expansion Targets
+
+The handbook actively tracks ongoing frontiers in data structures, hardware paradigms, and modern algorithms. Potential targets for future monograph expansion include:
+
+1. **Non-Volatile Memory (NVM) & Persistent Memory Structures**:
+   * Crash-consistent search trees (FAST-FAIR, NV-Tree, P-B+Tree, FPTree).
+   * Cache-line flush (`clwb`, `clflushopt`) and memory fence (`sfence`) durability primitives.
+   * Lock-free persistent logs and persistent memory allocators (PMDK).
+
+2. **Learned Index Structures & Machine-Learned DSA**:
+   * Recursive Model Indexes (RMI) replacing traditional B-Trees and Radix Trees.
+   * Updatable learned indexes (ALEX, PGM-Index, RadixSpline).
+   * Learned Bloom filters and neural cardinality estimators.
+
+3. **Hardware Transactional Memory (HTM) & Modern Concurrency**:
+   * Restricted Transactional Memory (Intel TSX) hybrid synchronization.
+   * Wait-free universal constructions and fast lock-free priority queues.
+   * NUMA-aware data placement and flat combining algorithms.
+
+4. **High-Dimensional Vector Search & Approximate Nearest Neighbors (ANN)**:
+   * Hierarchical Navigable Small World (HNSW) graphs.
+   * Inverted File with Product Quantization (IVF-PQ) and ScaNN.
+   * Disk-native vector indexing (DiskANN) for trillion-scale embedding spaces.
+
+5. **Quantum Algorithmic Primitives**:
+   * Quantum amplitude amplification and Grover search complexity boundaries.
+   * Quantum walks on graphs and quantum Fourier transform primitives.

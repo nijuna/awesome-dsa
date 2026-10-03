@@ -1,11 +1,11 @@
 # Frequently Asked Questions (FAQ)
 
-### 1. What makes Awesome DSA different from other DSA repositories?
+### 1. What makes The DSA Handbook different from other DSA repositories?
 Most repositories are either:
 1. Flat, unvetted lists of links without explanations.
 2. Code dumps of LeetCode solutions without underlying intuition.
 
-**Awesome DSA** is structured as an **Open-Source Encyclopedia & Engineering Handbook**. Every topic couples mathematical foundations and invariants with visual mental models, CPU cache/hardware realities, and production systems case studies (e.g. Linux CFS scheduler, PostgreSQL B-Trees, RocksDB LSM-Trees).
+**The DSA Handbook** is structured as an **Open-Source Encyclopedia & Engineering Handbook**. Every topic couples mathematical foundations and invariants with visual mental models, CPU cache/hardware realities, and production systems case studies (e.g. Linux CFS scheduler, PostgreSQL B-Trees, RocksDB LSM-Trees).
 
 ---
 
@@ -23,4 +23,4 @@ Our conceptual documentation emphasizes **Python** (for high-level readability a
 ---
 
 ### 4. How can I contribute?
-Check out our [Contributing Guidelines](CONTRIBUTING.md), pick an uncompleted topic in the [Roadmap](ROADMAP.md), follow our [Style Guide](STYLE-GUIDE.md), and submit a Pull Request!
+Review our [Contributing Guidelines](CONTRIBUTING.md), consult the [Master Curriculum Syllabus](ROADMAP.md), follow our [Style Guide](STYLE-GUIDE.md), and submit a Pull Request!

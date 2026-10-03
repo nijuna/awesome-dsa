@@ -1,6 +1,6 @@
-# Awesome DSA Academic & Engineering References
+# The DSA Handbook Academic & Engineering References
 
-A curated index of seminal research papers, foundational textbooks, and production engineering blogs referenced across this repository.
+A curated index of seminal research papers, foundational textbooks, and production engineering blogs referenced across this handbook.
 
 ---
 
