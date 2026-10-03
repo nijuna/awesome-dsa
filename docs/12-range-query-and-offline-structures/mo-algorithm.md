@@ -93,9 +93,9 @@ $$Q_i < Q_j \iff \left\lfloor \frac{L_i}{B} \right\rfloor < \left\lfloor \frac{L
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Q as Query Queue (Sorted by Hilbert/Zig-Zag)
-    participant W as Active Window [cur_L, cur_R]
-    participant S as State Tracker (Frequencies)
+    participant Q as "Query Queue (Sorted by Hilbert/Zig-Zag)"
+    participant W as "Active Window [cur_L, cur_R]"
+    participant S as "State Tracker (Frequencies)"
 
     Note over W: Initial State: cur_L = 0, cur_R = -1 (empty)
     loop For each Query(id, L, R)

@@ -95,8 +95,8 @@ Because of this theorem, we do not need to discover all intersections simultaneo
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Q as Event Queue (Priority Queue)
-    participant L as Sweep Line Status (Balanced BST)
+    participant Q as "Event Queue (Priority Queue)"
+    participant L as "Sweep Line Status (Balanced BST)"
     participant O as Intersection Oracle / Reporter
 
     Note over Q,L: Sweep line advances to next Event E

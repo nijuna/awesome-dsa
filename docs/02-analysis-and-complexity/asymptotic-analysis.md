@@ -655,4 +655,3 @@ This makes asymptotic notation the basic language of algorithm analysis.
 8. Why is $ 2^n $ asymptotically larger than any polynomial $ n^k $?
 9. Why is asymptotic notation useful even though it ignores constants?
 10. What is a common misconception about Big-O?
-```

@@ -45,35 +45,35 @@ flowchart TD
 
 ### Tier 2: The Expert Ramp (Rating 1600–1900)
 - **Segment Tree with Lazy Propagation**: Range update, range query in $O(\log N)$.
-  - *Reference*: [`segment-tree.md`](../12-range-query-and-offline-structures/segment-tree.md)
+  - *Reference*: [`segment-tree.md`](../05-trees-and-hierarchical-structures/segment-trees.md)
 - **Euler Tour & Tree Subtree Queries**: Mapping subtrees to linear segment intervals.
-  - *Reference*: [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-flattening-and-euler-tour.md)
+  - *Reference*: [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
 - **Number Theory Essentials**: Modular inverse, Fermat's Little Theorem, Sieve of Eratosthenes in $O(N \log \log N)$.
 - **Bitmask & Submask DP**: Iterating over all submasks of all masks in $O(3^N)$.
-  - *Reference*: [`bitmask-dp.md`](../10-dynamic-programming/bitmask-dp.md)
+  - *Reference*: [`bitmask-dp.md`](../10-dynamic-programming/bitmask-and-state-compression.md)
 - **2-SAT**: Tarjan's SCC on implication graphs.
-  - *Reference*: [`tarjan-scc.md`](../08-graphs-and-network-algorithms/tarjan-scc.md)
+  - *Reference*: [`tarjan-scc.md`](../08-graphs-and-network-algorithms/strongly-connected-components.md)
 
 ### Tier 3: The Candidate Master Arsenal (Rating 1900–2200)
 - **Heavy-Light Decomposition (HLD)**: Arbitrary path queries and updates on trees in $O(\log^2 N)$.
-  - *Reference*: [`heavy-light-decomposition.md`](../12-range-query-and-offline-structures/heavy-light-decomposition.md)
+  - *Reference*: [`heavy-light-decomposition.md`](../08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 - **Suffix Automaton (SAM)**: Minimal DAG of substrings in $O(N)$ linear time.
   - *Reference*: [`suffix-automaton.md`](../11-strings-text-and-pattern-matching/suffix-automaton.md)
 - **Network Flow**: Dinic’s algorithm ($O(V^2 E)$, $O(E \sqrt{V})$ for unit networks) and Min-Cut modeling.
-  - *Reference*: [`dinic.md`](../08-graphs-and-network-algorithms/dinic.md)
+  - *Reference*: [`dinic.md`](../08-graphs-and-network-algorithms/network-flow-and-push-relabel.md)
 - **Offline Query Processing**: Mo's Algorithm with Hilbert curve ordering in $O(N \sqrt{Q})$.
-  - *Reference*: [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-and-cdq-divide-and-conquer.md)
+  - *Reference*: [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-algorithm.md)
 - **Convex Hull Trick & Li Chao Tree**: Linear cost DP optimization $dp[i] = \min(m_j \cdot x_i + c_j)$.
-  - *Reference*: [`convex-hull-trick.md`](../10-dynamic-programming/convex-hull-trick.md)
+  - *Reference*: [`convex-hull-trick.md`](../13-geometric-and-spatial-algorithms/convex-hull.md)
 
 ### Tier 4: Master & Beyond (Rating 2200–2600)
 - **CDQ Divide-and-Conquer**: Offline multi-dimensional partial order queries.
-  - *Reference*: [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-and-cdq-divide-and-conquer.md)
+  - *Reference*: [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-algorithm.md)
 - **Centroid Decomposition**: Divide-and-conquer on trees solving path length queries in $O(N \log N)$.
 - **Aliens Trick (WQS Binary Search / Lagrangian Relaxation)**: Removing $K$-step constraints via slope penalties.
 - **Fast Fourier Transform (FFT / NTT)**: Polynomial multiplication in $O(N \log N)$.
 - **Link-Cut Trees**: Dynamic path aggregations and connectivity in $O(\log N)$.
-  - *Reference*: [`link-cut-tree.md`](../14-advanced-data-structures/link-cut-tree.md)
+  - *Reference*: [`link-cut-tree.md`](../14-advanced-data-structures/link-cut-trees.md)
 
 ---
 

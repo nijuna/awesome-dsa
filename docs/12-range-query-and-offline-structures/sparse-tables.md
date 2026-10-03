@@ -26,7 +26,7 @@ related_topics: ["Prefix Sums and Difference Arrays", "Segment Tree", "Fenwick T
 
 > [!WARNING]
 > **Critical Implementation Traps & Invariants:**
-> 1. **Static Data Only:** Sparse tables cannot accommodate dynamic updates efficiently. A single point update requires $O(n \log n)$ rebuild time. For dynamic range workloads, use a [Segment Tree](../08-trees-and-hierarchical-structures/segment-tree.md) or [Fenwick Tree](../08-trees-and-hierarchical-structures/fenwick-tree.md).
+> 1. **Static Data Only:** Sparse tables cannot accommodate dynamic updates efficiently. A single point update requires $O(n \log n)$ rebuild time. For dynamic range workloads, use a [Segment Tree](../05-trees-and-hierarchical-structures/segment-trees.md) or [Fenwick Tree](../05-trees-and-hierarchical-structures/fenwick-trees.md).
 > 2. **Non-Idempotency Pitfall:** Never use the two-overlapping-block $O(1)$ formula for non-idempotent operations like sum or XOR. Overlapping elements will be counted multiple times, corrupting the answer.
 > 3. **Right Block Indexing:** In a query on $[l, r]$ with block size $2^k$, the rightmost block must start at $r - 2^k + 1$, NOT $r - 2^k$.
 > 4. **Log Table Precomputation:** Sizing the log array to $n + 1$ with `log[1] = 0` ensures direct 1-based indexing for interval lengths up to $n$ with zero out-of-bounds risk.

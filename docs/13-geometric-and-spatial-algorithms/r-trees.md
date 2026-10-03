@@ -99,8 +99,8 @@ sequenceDiagram
     autonumber
     participant C as Caller
     participant T as R-Tree Engine
-    participant L as ChooseLeaf()
-    participant S as QuadraticSplit()
+    participant L as "ChooseLeaf()"
+    participant S as "QuadraticSplit()"
 
     C->>T: insert(id, box)
     T->>L: ChooseLeaf(box)

@@ -103,7 +103,7 @@ sequenceDiagram
     participant D as Divide Engine
     participant L as Left Recurse
     participant R as Right Recurse
-    participant M as Linear Merge (by y)
+    participant M as "Linear Merge (by y)"
     participant S as Strip Scanner
 
     D->>L: Solve Left Half [0, mid)

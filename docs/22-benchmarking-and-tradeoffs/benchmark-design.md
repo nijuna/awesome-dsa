@@ -170,11 +170,11 @@ Distribution Types:
 ## 7. Reference Implementation Walkthrough
 
 The repository includes scientific benchmarking engines in both C++17 and Python 3:
-- [`benchmark_design.cpp`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/cpp/benchmark_design.cpp):
+- [`benchmark_design.cpp`](../../implementations/cpp/benchmark_design.cpp):
   - Hardware-level `do_not_optimize` and `clobber_memory` assembly barriers.
   - Multi-iteration statistical harness measuring mean, standard deviation, and percentiles ($p50, p90, p95, p99$).
   - Empirical verification of the small-$N$ memory hierarchy inversion (vector scan vs `std::set`).
-- [`benchmark_design.py`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/python/benchmark_design.py):
+- [`benchmark_design.py`](../../implementations/python/benchmark_design.py):
   - High-precision monotonic timing via `time.perf_counter_ns()`.
   - Automatic Garbage Collection suppression (`gc.disable()`, `gc.collect()`) during measurement loops to prevent GC artifacts from corrupting tail latency.
   - Full `unittest.TestCase` suite verifying statistical properties and asymptotic scaling.

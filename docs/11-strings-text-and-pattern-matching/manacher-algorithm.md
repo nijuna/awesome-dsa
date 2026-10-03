@@ -84,7 +84,7 @@ flowchart LR
 ## 2. Step-by-Step Worked Trace
 
 Consider string $S = \text{"abacaba"}$.
-Transformed string: $T = \text{"^#a#b#a#c#a#b#a#$"}$
+Transformed string: $T = \text{"^#a#b#a#c#a#b#a#\\$"}$
 
 | Index $i$ | $T[i]$ | $i'$ | Initial $P[i]$ | Final $P[i]$ | Meaning in $S$ | Center $C$ | Boundary $R$ |
 | :---: | :---: | :---: | :---: | :---: | :--- | :---: | :---: |

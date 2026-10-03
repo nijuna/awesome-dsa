@@ -370,10 +370,10 @@ This keeps the skip list compact and prevents wasting clock cycles traversing em
 ## 7. Canonical Diagram of Express Lanes
 
 ```text
-Top sparse level (L3):       head -------------------------------- 40 ----------------------------------------------> NIL
-Middle level (L2):           head --------------- 20 ------------ 40 ----------------------- 70 --------------------> NIL
-Lower-middle level (L1):     head ----- 10 ------ 20 ----- 30 ---- 40 ----- 50 ----- 60 ----- 70 ----- 80 ---------> NIL
-Base dense level (L0):       head - 5 - 10 - 15 - 20 - 25 - 30 - 35 - 40 - 45 - 50 - 55 - 60 - 70 - 75 - 80 - 90 -> NIL
+L3 (Express):   head -------------------------------- 40 ----------------------------------> NIL
+L2 (Fast):      head --------------- 20 ------------ 40 ------------------- 70 -----------> NIL
+L1 (Medium):    head ----- 10 ------ 20 ----- 30 ---- 40 ---- 50 ---- 60 --- 70 ---- 80 ---> NIL
+L0 (Dense):     head - 5 - 10 - 15 - 20 - 25 - 30 - 35 - 40 - 45 - 50 - 60 - 70 - 80 - 90 -> NIL
 ```
 
 ### Path to locate key 35:

@@ -351,8 +351,8 @@ $$
 sequenceDiagram
     autonumber
     participant H as Heap Positions a & b
-    participant PQ as pq Array (pos -> item)
-    participant QP as qp Array (item -> pos)
+    participant PQ as "pq Array (pos -> item)"
+    participant QP as "qp Array (item -> pos)"
 
     Note over H,QP: Exchange items at heap positions a and b
     H->>PQ: swap(pq[a], pq[b])

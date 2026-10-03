@@ -56,9 +56,9 @@ flowchart TD
 ### Milestone 2: Recurrences & Asymptotic Analysis
 - **Core Topics**: The Master Theorem, the Akra-Bazzi method for non-uniform branches, perturbation analysis, worst vs average vs smoothed analysis.
 - **Key Chapters to Read**:
-  - [`asymptotic-notation.md`](../02-analysis-and-complexity/asymptotic-notation.md)
-  - [`master-theorem.md`](../02-analysis-and-complexity/master-theorem.md)
-  - [`recurrence-relations.md`](../02-analysis-and-complexity/recurrence-relations.md)
+  - [`asymptotic-notation.md`](../02-analysis-and-complexity/asymptotic-analysis.md)
+  - [`master-theorem.md`](../02-analysis-and-complexity/master-theorem-and-beyond.md)
+  - [`recurrence-relations.md`](../01-mathematical-foundations/recurrence-relations.md)
   - [`akra-bazzi-method.md`](../02-analysis-and-complexity/akra-bazzi-method.md)
 - **Core Proof Exercises**:
   1. Solve $T(n) = T(n/3) + T(2n/3) + cn$ using the Akra-Bazzi integration theorem:
@@ -72,8 +72,8 @@ flowchart TD
 - **Key Chapters to Read**:
   - [`expected-value-and-random-variables.md`](../01-mathematical-foundations/expected-value-and-random-variables.md)
   - [`randomized-analysis.md`](../02-analysis-and-complexity/randomized-analysis.md)
-  - [`cuckoo-hashing.md`](../07-hashing-randomization-and-probabilistic/cuckoo-hashing.md)
-  - [`bloom-filters.md`](../07-hashing-randomization-and-probabilistic/bloom-filters.md)
+  - [`cuckoo-hashing.md`](../07-hashing-randomization-and-probabilistic/robin-hood-cuckoo-and-hopscotch-hashing.md)
+  - [`bloom-filters.md`](../07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
 - **Core Proof Exercises**:
   1. Prove that Randomized Quicksort executes exactly $2n \ln n - O(n)$ expected comparisons using indicator random variables $X_{ij}$.
   2. Prove the Chernoff bound: For independent Bernoulli variables $X = \sum X_i$, $\mathbb{P}(X \ge (1+\delta)\mu) \le \exp(-\frac{\delta^2 \mu}{2 + \delta})$.
@@ -85,7 +85,7 @@ flowchart TD
 - **Key Chapters to Read**:
   - [`amortized-analysis.md`](../02-analysis-and-complexity/amortized-analysis.md)
   - [`splay-trees.md`](../05-trees-and-hierarchical-structures/splay-trees.md)
-  - [`fibonacci-heap.md`](../06-heaps-priority-and-selection/fibonacci-heap.md)
+  - [`fibonacci-heap.md`](../06-heaps-priority-and-selection/fibonacci-heaps.md)
 - **Core Proof Exercises**:
   1. Prove the amortized cost of dynamic array expansion is $O(1)$ using the potential function $\Phi = 2 \cdot \text{size} - \text{capacity}$.
   2. Derive Sleator & Tarjan's Access Lemma for Splay Trees using the rank potential function $\Phi = \sum_{x} \log_2(\text{weight}(x))$.

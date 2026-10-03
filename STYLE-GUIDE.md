@@ -59,4 +59,4 @@ Use GitHub blockquote callouts purposefully:
 
 * **File Names**: Always use kebab-case (all lowercase with hyphens): e.g. `b-trees-and-b-plus-trees.md`.
 * **Relative Links**: Always use explicit relative Markdown links with the `.md` extension so links resolve both in GitHub web UI and local tools like Obsidian and VS Code.
-  * Example: `[B+ Trees](../05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)`
+  * Example: `[B+ Trees](docs/05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)`

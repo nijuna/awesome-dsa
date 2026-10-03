@@ -70,7 +70,7 @@ Unlike competitive programming where raw execution speed and obscure algorithms 
 
 ### Pattern 4: Monotonic Stacks & Queues
 - **Core Concept**: Maintain an invariant of strict monotonic increase or decrease inside a stack to answer next-greater/smaller element queries in amortized $O(1)$.
-- **Reference Chapter**: [`monotonic-queue-and-stack.md`](../04-linear-data-structures/monotonic-queue-and-stack.md).
+- **Reference Chapter**: [`monotonic-queue-and-stack.md`](../19-problem-solving-patterns/monotonic-stack-and-queue.md).
 - **Target Problems**:
   - LeetCode 739: Daily Temperatures
   - LeetCode 84: Largest Rectangle in Histogram (Hard)
@@ -78,7 +78,7 @@ Unlike competitive programming where raw execution speed and obscure algorithms 
 
 ### Pattern 5: Top 'K' Elements & Priority Queues
 - **Core Concept**: Use a min-heap of size $K$ to find the top $K$ largest elements in $O(N \log K)$ without sorting the whole array.
-- **Reference Chapter**: [`binary-heap.md`](../06-heaps-priority-and-selection/binary-heap.md).
+- **Reference Chapter**: [`binary-heap.md`](../06-heaps-priority-and-selection/binary-heaps.md).
 - **Target Problems**:
   - LeetCode 215: Kth Largest Element in an Array (Min-Heap & Quickselect)
   - LeetCode 347: Top K Frequent Elements

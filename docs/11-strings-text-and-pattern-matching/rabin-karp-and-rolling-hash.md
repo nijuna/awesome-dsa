@@ -34,12 +34,10 @@ related_topics: ["Prefix Function and KMP", "Aho-Corasick", "Suffix Arrays and L
 flowchart LR
     subgraph SlidingWindow ["Rolling Hash Window Transition"]
         direction LR
-        W1["Window: [ a b c d ]
-Hash: H"] --> SUB["Subtract: - a * B^(m-1)"]
+        W1["Window: [ a b c d ]\nHash: H"] --> SUB["Subtract: - a * B^(m-1)"]
         SUB --> MULT["Shift Left: * B"]
         MULT --> ADD["Append: + e"]
-        ADD --> W2["Window: [ b c d e ]
-Hash: H' in O(1)"]
+        ADD --> W2["Window: [ b c d e ]\nHash: H' in O(1)"]
     end
 ```
 
@@ -730,4 +728,3 @@ This makes rolling hash one of the most useful practical tools in string algorit
 8. Why must modular subtraction be normalized?
 9. When is Rabin-Karp especially attractive compared with KMP?
 10. Why can rolling hashes be useful beyond strings?
-```

@@ -226,13 +226,13 @@ In `kernel/sched/fair.c`:
 ## 6. Reference Implementation Walkthrough
 
 The repository includes production-grade implementations in both C++17 and Python 3:
-- [`linux_kernel_internals.cpp`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/cpp/linux_kernel_internals.cpp):
+- [`linux_kernel_internals.cpp`](../../implementations/cpp/linux_kernel_internals.cpp):
   - `list_head` with exact `container_of` macro pointer arithmetic.
   - Multi-list embedding demonstration (`run_list` and `all_tasks`).
   - Augmented Red-Black Tree (`RbTreeCached`) with cached leftmost pointer and full rotation/recoloring logic.
   - Multi-threaded `SimpleRcuEngine` with concurrent readers, atomic pointer swaps, and generation-based quiescent state synchronization.
   - VFS `Dcache` with hash table indexing and LRU eviction chain.
-- [`linux_kernel_internals.py`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/python/linux_kernel_internals.py):
+- [`linux_kernel_internals.py`](../../implementations/python/linux_kernel_internals.py):
   - Object-oriented modeling of intrusive list links, `container_of` ownership mappings, CFS scheduler, RCU engine, and directory cache.
   - Full `unittest.TestCase` suite verifying all architectural invariants.
 

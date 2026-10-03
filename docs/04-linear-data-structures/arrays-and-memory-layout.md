@@ -667,4 +667,3 @@ Understanding arrays at the memory-layout level helps explain why some code is m
 8. What is false sharing?
 9. Why can two logically separate counters interfere in multithreaded code?
 10. Why can arrays outperform linked structures even when both are $ O(n) $ to traverse?
-```

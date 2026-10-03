@@ -55,7 +55,7 @@ By precomputing the **Suffix Tree** $\mathcal{T}(S)$:
 ## 2. Formal Definition & Mathematical Foundations
 
 ### 2.1 Structural Invariants of Suffix Tree $\mathcal{T}(S)$
-Let $S = s_1 s_2 \dots s_N \$$ be a string of length $N + 1$ with unique terminal sentinel $\$ \notin \Sigma$.
+Let $S = s_1 s_2 \dots s_N \ \$ $ be a string of length $N + 1$ with unique terminal sentinel $\$ \notin \Sigma$.
 1. **Leaf Invariant:** $\mathcal{T}(S)$ has exactly $N + 1$ leaves, numbered $0$ to $N$, corresponding to suffixes $S[i \dots N]$.
 2. **Internal Node Invariant:** Every internal node has at least two children (non-trivial branching).
 3. **Node & Edge Bound:**
@@ -185,7 +185,7 @@ The complete Python 3 implementation with `unittest.TestCase` is available at:
 6. **Phase 5 ('a'):**
    - Current active point points to `"ana"`. Character `'a'` already follows `"an"`.
    - **Rule 3 Triggers:** `active_length = 3`. Break!
-7. **Phase 6 ('$'):**
+7. **Phase 6 ('\$'):**
    - Character `$` does not match. Edge splits occur, creating branching internal nodes for `"a"` and `"na"`, inserting final leaves.
 8. **Final Result:** Exact suffix tree with 7 leaves and 4 internal nodes constructed in linear time.
 

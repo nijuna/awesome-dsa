@@ -803,4 +803,3 @@ This makes bitsets one of the most useful low-level tools for compact sets, visi
 8. Why are bitsets especially useful for subset DP?
 9. When is a hash set preferable to a bitset?
 10. Why should unsigned integers often be preferred in bit manipulation?
-```

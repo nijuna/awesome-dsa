@@ -102,13 +102,13 @@ Each list $L_i$ is split into resident cache ($T_i$) and ghost history ($B_i$):
 $$\text{Memory Resident Invariant}: \quad |T_1| + |T_2| \le c$$
 $$\text{Total Metadata Invariant}: \quad |T_1| + |B_1| + |T_2| + |B_2| \le 2c$$
 
-```
-    [==================== L1 (Recency) ====================]   [==================== L2 (Frequency) ====================]
-    +---------------------------+---------------------------+   +---------------------------+---------------------------+
-    |         T1 (MRU)          |         B1 (Ghost)        |   |         T2 (MRU)          |         B2 (Ghost)        |
-    |    (Resident in RAM)      |        (Keys only)        |   |    (Resident in RAM)      |        (Keys only)        |
-    +---------------------------+---------------------------+   +---------------------------+---------------------------+
-    <--------- Target p ------->                                 <---------------- (c - p) ------------------>
+```text
+    [============= L1 (Recency) =============]   [============ L2 (Frequency) ============]
+    +--------------------+-------------------+   +--------------------+-------------------+
+    |      T1 (MRU)      |    B1 (Ghost)     |   |      T2 (MRU)      |    B2 (Ghost)     |
+    | (Resident in RAM)  |    (Keys only)    |   | (Resident in RAM)  |    (Keys only)    |
+    +--------------------+-------------------+   +--------------------+-------------------+
+    <----- Target p ----->                       <------------ (c - p) -------------->
 ```
 
 ### 4.2 Dynamic Self-Tuning Parameter $p$
@@ -220,11 +220,11 @@ In multi-threaded servers, executing lock-protected list splices on every single
 ## 8. Reference Implementation Walkthrough
 
 The repository includes production-grade reference implementations:
-- [`high_performance_caching.cpp`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/cpp/high_performance_caching.cpp):
+- [`high_performance_caching.cpp`](../../implementations/cpp/high_performance_caching.cpp):
   - Complete, zero-dependency implementations of `LRUCache`, `TwoQueueCache`, `ARCCache`, and `WTinyLFUCache`.
   - Exact 4-bit Count-Min sketch with periodic time-decay resets.
   - Empirical multi-round benchmark evaluating hit ratios under periodic large scans.
-- [`high_performance_caching.py`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/python/high_performance_caching.py):
+- [`high_performance_caching.py`](../../implementations/python/high_performance_caching.py):
   - Clean Pythonic implementations backed by `collections.OrderedDict`.
   - Full `unittest.TestCase` suite verifying ARC parameter adaptation, 2Q promotion, and W-TinyLFU admission filtering.
 

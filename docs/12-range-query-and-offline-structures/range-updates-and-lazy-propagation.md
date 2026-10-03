@@ -35,9 +35,7 @@ related_topics: ["Segment Tree", "Sparse Tables", "Fenwick Tree", "Persistent Da
 flowchart TD
     subgraph LazyUpdate ["Lazy Range Update Mechanics"]
         direction TB
-        NODE["Node covers [L, R] fully inside update [ql, qr]"] --> CACHE["1. Update node aggregated sum/min
-2. Store pending lazy tag
-3. Return immediately (O(1))"]
+        NODE["Node covers [L, R] fully inside update [ql, qr]"] --> CACHE["1. Update node aggregated sum/min\n2. Store pending lazy tag\n3. Return immediately (O(1))"]
         CACHE -.->|Later query needs deeper subsegment| PUSH["Push-Down: propagate lazy tag to children"]
         PUSH --> CL["Child Left [L, M]: apply tag"]
         PUSH --> CR["Child Right [M+1, R]: apply tag"]

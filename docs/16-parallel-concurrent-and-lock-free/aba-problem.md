@@ -70,7 +70,7 @@ The most catastrophic manifestation of the ABA problem occurs in a naive **Treib
 ```mermaid
 sequenceDiagram
     autonumber
-    participant T1 as Thread 1 (Reader)
+    participant T1 as "Thread 1 (Reader)"
     participant Stack as Shared Stack Top
     participant T2 as Thread 2 / Allocator
     

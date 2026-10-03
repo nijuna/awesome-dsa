@@ -177,11 +177,11 @@ When leader receives command $C$ from a client:
 ## 6. Reference Implementation Walkthrough
 
 The repository includes production-grade reference implementations:
-- [`distributed_state_engines.cpp`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/cpp/distributed_state_engines.cpp):
+- [`distributed_state_engines.cpp`](../../implementations/cpp/distributed_state_engines.cpp):
   - `ConsistentHashRing`: 64-bit FNV-1a hash ring with virtual nodes, binary search routing via `std::map`, and preference list generation.
   - `VectorClock`: Full partial ordering comparison (`BEFORE`, `AFTER`, `EQUAL`, `CONCURRENT`) and merging.
   - `RaftServer` and `RaftClusterSimulation`: In-memory 3-node cluster simulation verifying `AppendEntries` log replication, quorum majority commits, and deterministic state machine application.
-- [`distributed_state_engines.py`](file:///media/Shared/RAIG-Records/03-Interests/Projects/awesome-lists/awesome-dsa/implementations/python/distributed_state_engines.py):
+- [`distributed_state_engines.py`](../../implementations/python/distributed_state_engines.py):
   - SHA-256 consistent hash ring with `bisect` token lookup.
   - Complete `unittest.TestCase` suite verifying that adding a 5th node migrates $\approx 20\%$ of keys, vector clocks detect concurrent branches, and Raft replicates state machines identically.
 

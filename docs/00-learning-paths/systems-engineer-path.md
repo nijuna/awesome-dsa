@@ -46,7 +46,7 @@ flowchart TD
 - **Key Chapters to Read**:
   - [`cpu-cache-and-memory.md`](../03-machine-model-and-performance/cpu-cache-and-memory.md)
   - [`memory-allocation-and-fragmentation.md`](../03-machine-model-and-performance/memory-allocation-and-fragmentation.md)
-  - [`bit-manipulation-tricks.md`](../03-machine-model-and-performance/bit-manipulation-tricks.md)
+  - [`bit-manipulation-tricks.md`](../04-linear-data-structures/bitsets-and-bitvectors.md)
 - **Hands-On Exercises**:
   1. Write a benchmark reproducing **false sharing**: two threads incrementing adjacent variables on the same 64-byte cache line vs separated by `alignas(64)`. Observe the $10\times$ performance drop.
   2. Implement an array of structures (AoS) vs structure of arrays (SoA) and benchmark SIMD vectorization throughput.
@@ -67,7 +67,7 @@ flowchart TD
 ### Milestone 3: Concurrency, Memory Models & Lock-Free Data Structures
 - **Core Topics**: The C++ memory model (`memory_order_relaxed`, `acquire`, `release`, `seq_cst`), the ABA problem, lock-free queues and stacks.
 - **Key Chapters to Read**:
-  - [`memory-models-and-ordering.md`](../16-parallel-concurrent-and-lock-free/memory-models-and-ordering.md)
+  - [`memory-models-and-ordering.md`](../16-parallel-concurrent-and-lock-free/lock-free-and-wait-free-basics.md)
   - [`concurrent-queues-and-stacks.md`](../16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
   - [`aba-problem.md`](../16-parallel-concurrent-and-lock-free/aba-problem.md)
   - [`work-stealing-deques.md`](../16-parallel-concurrent-and-lock-free/work-stealing-deques.md)
@@ -95,7 +95,7 @@ flowchart TD
 - **Key Chapters to Read**:
   - [`storage-engines-breakdown.md`](../18-systems-case-studies/storage-engines-breakdown.md)
   - [`high-performance-caching.md`](../18-systems-case-studies/high-performance-caching.md)
-  - [`cache-oblivious-algorithms.md`](../15-external-memory-cache-oblivious-and-streaming/cache-oblivious-algorithms.md)
+  - [`cache-oblivious-algorithms.md`](../15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
 - **Hands-On Exercises**:
   1. Implement a slotted-page $B^+$-Tree node with binary searched key offsets.
   2. Build an LSM-Tree with in-memory MemTable, append-only Write-Ahead Log (WAL), and tiered background SSTable compaction.

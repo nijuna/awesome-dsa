@@ -70,51 +70,51 @@ This master index provides:
 - **Amortized Analysis**: Aggregate, accounting, and physicist potential method derivations. [`amortized-analysis.md`](../02-analysis-and-complexity/amortized-analysis.md)
 - **Andrew's Monotone Chain**: $O(N \log N)$ exact integer convex hull algorithm. [`convex-hull.md`](../13-geometric-and-spatial-algorithms/convex-hull.md)
 - **Authenticated Data Structures**: Merkle treaps and cryptographic membership/non-membership proofs. [`authenticated-data-structures.md`](../17-cryptographic-and-merkle-like-structures/authenticated-data-structures.md)
-- **AVL Tree**: Strict height-balanced binary search tree with single and double rotations. [`avl-trees.md`](../05-trees-and-hierarchical-structures/avl-trees.md)
+- **AVL Tree**: Strict height-balanced binary search tree with single and double rotations. [`avl-trees.md`](../05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 
 ### B
-- **B-Trees & B+ Trees**: Slotted-page external memory balanced search trees. [`b-trees-and-variants.md`](../05-trees-and-hierarchical-structures/b-trees-and-variants.md)
+- **B-Trees & B+ Trees**: Slotted-page external memory balanced search trees. [`b-trees-and-variants.md`](../05-trees-and-hierarchical-structures/b-trees-and-b-plus-trees.md)
 - **Benchmark Design**: Optimization barriers, statistical percentiles, and hardware counter profiling. [`benchmark-design.md`](../22-benchmarking-and-tradeoffs/benchmark-design.md)
-- **Binary Search & Variants**: Exact match, lower bound, upper bound, and float bisection. [`binary-search-and-variants.md`](../09-algorithm-design-paradigms/binary-search-and-variants.md)
-- **Bit Manipulation Tricks**: Popcount, trailing zeros, bitwise subsets, and SWAR. [`bit-manipulation-tricks.md`](../03-machine-model-and-performance/bit-manipulation-tricks.md)
+- **Binary Search & Variants**: Exact match, lower bound, upper bound, and float bisection. [`binary-search-and-variants.md`](../19-problem-solving-patterns/binary-search-on-answer.md)
+- **Bit Manipulation Tricks**: Popcount, trailing zeros, bitwise subsets, and SWAR. [`bit-manipulation-tricks.md`](../04-linear-data-structures/bitsets-and-bitvectors.md)
 - **Bitcask**: Append-only log storage engine with in-memory keydir. [`storage-engines-breakdown.md`](../18-systems-case-studies/storage-engines-breakdown.md)
-- **Bloom Filters**: Space-efficient probabilistic set membership. [`bloom-filters.md`](../07-hashing-randomization-and-probabilistic/bloom-filters.md)
+- **Bloom Filters**: Space-efficient probabilistic set membership. [`bloom-filters.md`](../07-hashing-randomization-and-probabilistic/bloom-and-cuckoo-filters.md)
 
 ### C
-- **Cache-Oblivious Algorithms**: Matrix multiplication, van Emde Boas layouts, and funnelsort. [`cache-oblivious-algorithms.md`](../15-external-memory-cache-oblivious-and-streaming/cache-oblivious-algorithms.md)
-- **CDQ Divide-and-Conquer**: Offline multi-dimensional partial order range querying. [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-and-cdq-divide-and-conquer.md)
+- **Cache-Oblivious Algorithms**: Matrix multiplication, van Emde Boas layouts, and funnelsort. [`cache-oblivious-algorithms.md`](../15-external-memory-cache-oblivious-and-streaming/io-model-and-external-memory.md)
+- **CDQ Divide-and-Conquer**: Offline multi-dimensional partial order range querying. [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-algorithm.md)
 - **CFS Completely Fair Scheduler**: Linux kernel augmented red-black tree with cached leftmost node. [`linux-kernel-internals.md`](../18-systems-case-studies/linux-kernel-internals.md)
 - **Chase-Lev Deque**: Single-producer multi-consumer dynamic circular work-stealing deque. [`work-stealing-deques.md`](../16-parallel-concurrent-and-lock-free/work-stealing-deques.md)
 - **Consistent Hashing**: Dynamo ring with virtual nodes and minimal key migration. [`distributed-state-engines.md`](../18-systems-case-studies/distributed-state-engines.md)
-- **Count-Min Sketch**: Sub-linear frequency estimation with periodic time-decay resets. [`count-min-sketch.md`](../07-hashing-randomization-and-probabilistic/count-min-sketch.md)
-- **Cuckoo Hashing**: Constant worst-case lookup with multiple hash functions and eviction cycles. [`cuckoo-hashing.md`](../07-hashing-randomization-and-probabilistic/cuckoo-hashing.md)
+- **Count-Min Sketch**: Sub-linear frequency estimation with periodic time-decay resets. [`count-min-sketch.md`](../15-external-memory-cache-oblivious-and-streaming/count-min-sketch.md)
+- **Cuckoo Hashing**: Constant worst-case lookup with multiple hash functions and eviction cycles. [`cuckoo-hashing.md`](../07-hashing-randomization-and-probabilistic/robin-hood-cuckoo-and-hopscotch-hashing.md)
 
 ### D
-- **Dijkstra's Algorithm**: Single-source shortest path with binary and Fibonacci heaps. [`dijkstra.md`](../08-graphs-and-network-algorithms/dijkstra.md)
+- **Dijkstra's Algorithm**: Single-source shortest path with binary and Fibonacci heaps. [`dijkstra.md`](../08-graphs-and-network-algorithms/shortest-paths.md)
 - **Disjoint-Set Union (DSU)**: Path compression and union-by-rank with $\alpha(n)$ amortized bound. [`disjoint-set-union.md`](../04-linear-data-structures/disjoint-set-union.md)
-- **Dynamic Programming Optimization**: Convex Hull Trick, Knuth, Divide & Conquer, and Aliens (WQS) binary search. [`convex-hull-trick.md`](../10-dynamic-programming/convex-hull-trick.md)
+- **Dynamic Programming Optimization**: Convex Hull Trick, Knuth, Divide & Conquer, and Aliens (WQS) binary search. [`convex-hull-trick.md`](../13-geometric-and-spatial-algorithms/convex-hull.md)
 
 ### E
 - **Epoch-Based Reclamation (EBR)**: 3-epoch circular binning for lock-free memory reclamation. [`hazard-pointers-and-epoch-reclamation.md`](../16-parallel-concurrent-and-lock-free/hazard-pointers-and-epoch-reclamation.md)
-- **Euler Tour Technique & Tree Flattening**: Subtree queries via interval mapping on linear arrays. [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-flattening-and-euler-tour.md)
+- **Euler Tour Technique & Tree Flattening**: Subtree queries via interval mapping on linear arrays. [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
 
 ### F
-- **Fenwick Tree (Binary Indexed Tree)**: Prefix sums, point updates, and range queries in $O(\log n)$. [`fenwick-tree.md`](../12-range-query-and-offline-structures/fenwick-tree.md)
-- **Fibonacci Heap**: Amortized $O(1)$ decrease-key and insert with cascading cuts. [`fibonacci-heap.md`](../06-heaps-priority-and-selection/fibonacci-heap.md)
-- **Flow Networks & Min-Cut**: Dinic's blocking flow and Push-Relabel algorithm with gap heuristic. [`dinic.md`](../08-graphs-and-network-algorithms/dinic.md), [`push-relabel.md`](../08-graphs-and-network-algorithms/push-relabel.md)
+- **Fenwick Tree (Binary Indexed Tree)**: Prefix sums, point updates, and range queries in $O(\log n)$. [`fenwick-tree.md`](../05-trees-and-hierarchical-structures/fenwick-trees.md)
+- **Fibonacci Heap**: Amortized $O(1)$ decrease-key and insert with cascading cuts. [`fibonacci-heap.md`](../06-heaps-priority-and-selection/fibonacci-heaps.md)
+- **Flow Networks & Min-Cut**: Dinic's blocking flow and Push-Relabel algorithm with gap heuristic. [`dinic.md`](../08-graphs-and-network-algorithms/network-flow-and-push-relabel.md), [`push-relabel.md`](../08-graphs-and-network-algorithms/network-flow-and-push-relabel.md)
 - **Fusion Trees**: Fredman-Willard $O(\log_W N)$ word-level parallelism predecessor search. [`fusion-trees.md`](../14-advanced-data-structures/fusion-trees.md)
 
 ### H
 - **Hazard Pointers**: Thread-local pointer publication for bounded lock-free memory reclamation. [`hazard-pointers-and-epoch-reclamation.md`](../16-parallel-concurrent-and-lock-free/hazard-pointers-and-epoch-reclamation.md)
-- **Heavy-Light Decomposition (HLD)**: Decomposing tree paths into continuous array intervals. [`heavy-light-decomposition.md`](../12-range-query-and-offline-structures/heavy-light-decomposition.md)
+- **Heavy-Light Decomposition (HLD)**: Decomposing tree paths into continuous array intervals. [`heavy-light-decomposition.md`](../08-graphs-and-network-algorithms/lowest-common-ancestor.md)
 - **HyperLogLog**: Near-zero RAM cardinality estimation via leading-zero register tracking. [`hyperloglog.md`](../07-hashing-randomization-and-probabilistic/hyperloglog.md)
 
 ### K
-- **K-D Tree**: Multi-dimensional orthogonal range search and nearest neighbor search. [`k-d-trees.md`](../13-geometric-and-spatial-algorithms/k-d-trees.md)
-- **Knuth-Morris-Pratt (KMP)**: Deterministic linear-time single string pattern matching. [`knuth-morris-pratt.md`](../11-strings-text-and-pattern-matching/knuth-morris-pratt.md)
+- **K-D Tree**: Multi-dimensional orthogonal range search and nearest neighbor search. [`k-d-trees.md`](../13-geometric-and-spatial-algorithms/kd-trees.md)
+- **Knuth-Morris-Pratt (KMP)**: Deterministic linear-time single string pattern matching. [`knuth-morris-pratt.md`](../11-strings-text-and-pattern-matching/prefix-function-and-kmp.md)
 
 ### L
-- **Link-Cut Tree**: Dynamic tree connectivity, path aggregations, and root manipulation via splay trees. [`link-cut-tree.md`](../14-advanced-data-structures/link-cut-tree.md)
+- **Link-Cut Tree**: Dynamic tree connectivity, path aggregations, and root manipulation via splay trees. [`link-cut-tree.md`](../14-advanced-data-structures/link-cut-trees.md)
 - **Linux Kernel Intrusive Lists**: `struct list_head` and `container_of` offset-of pointer arithmetic. [`linux-kernel-internals.md`](../18-systems-case-studies/linux-kernel-internals.md)
 - **Lock-Free Queue (Michael-Scott)**: Sentinel node queue with cooperative helping CAS. [`concurrent-queues-and-stacks.md`](../16-parallel-concurrent-and-lock-free/concurrent-queues-and-stacks.md)
 - **LSM-Tree**: Log-Structured Merge-Tree with tiered and leveled compaction. [`storage-engines-breakdown.md`](../18-systems-case-studies/storage-engines-breakdown.md)
@@ -122,22 +122,22 @@ This master index provides:
 ### M
 - **Manacher's Algorithm**: $O(N)$ linear-time discovery of all palindromic substrings. [`manacher-algorithm.md`](../11-strings-text-and-pattern-matching/manacher-algorithm.md)
 - **Merkle Trees**: RFC 6962 cryptographic audit paths and tamper-proof log proofs. [`merkle-trees.md`](../17-cryptographic-and-merkle-like-structures/merkle-trees.md)
-- **Mo's Algorithm**: Offline range queries with $\sqrt{N}$ block decomposition and Hilbert curves. [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-and-cdq-divide-and-conquer.md)
+- **Mo's Algorithm**: Offline range queries with $\sqrt{N}$ block decomposition and Hilbert curves. [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-algorithm.md)
 
 ### P
-- **Persistent Segment Tree**: Functional history tracking via immutable path copying. [`persistent-segment-tree.md`](../12-range-query-and-offline-structures/persistent-segment-tree.md)
-- **PRAM & Work-Depth**: Brent's theorem, parallel slackness, and fork-join DAG scheduling. [`pram-and-work-depth.md`](../16-parallel-concurrent-and-lock-free/pram-and-work-depth.md)
+- **Persistent Segment Tree**: Functional history tracking via immutable path copying. [`persistent-segment-tree.md`](../14-advanced-data-structures/persistent-data-structures.md)
+- **PRAM & Work-Depth**: Brent's theorem, parallel slackness, and fork-join DAG scheduling. [`pram-and-work-depth.md`](../16-parallel-concurrent-and-lock-free/parallel-algorithm-basics.md)
 
 ### R
 - **Raft Consensus**: Leader election, replicated append-only logs, and quorum commit safety. [`distributed-state-engines.md`](../18-systems-case-studies/distributed-state-engines.md)
 - **Read-Copy-Update (RCU)**: Lockless reader scaling via quiescent state grace period tracking. [`linux-kernel-internals.md`](../18-systems-case-studies/linux-kernel-internals.md)
-- **Red-Black Tree**: Isomorphic binary representation of 2-3-4 B-trees. [`red-black-trees.md`](../05-trees-and-hierarchical-structures/red-black-trees.md)
+- **Red-Black Tree**: Isomorphic binary representation of 2-3-4 B-trees. [`red-black-trees.md`](../05-trees-and-hierarchical-structures/avl-and-red-black-trees.md)
 
 ### S
-- **Segment Tree**: Point update, range query, and lazy propagation range updates in $O(\log n)$. [`segment-tree.md`](../12-range-query-and-offline-structures/segment-tree.md)
-- **Skip List**: Probabilistic balanced dictionary using geometric coin flipping. [`skip-lists.md`](../04-linear-data-structures/skip-lists.md)
+- **Segment Tree**: Point update, range query, and lazy propagation range updates in $O(\log n)$. [`segment-tree.md`](../05-trees-and-hierarchical-structures/segment-trees.md)
+- **Skip List**: Probabilistic balanced dictionary using geometric coin flipping. [`skip-lists.md`](../07-hashing-randomization-and-probabilistic/skip-lists.md)
 - **Splay Tree**: Self-adjusting binary search tree with amortized $O(\log n)$ access lemma. [`splay-trees.md`](../05-trees-and-hierarchical-structures/splay-trees.md)
-- **Succinct Rank/Select Bitvectors**: Jacobson $o(N)$ summary directories supporting $O(1)$ rank. [`succinct-structures.md`](../14-advanced-data-structures/succinct-structures.md)
+- **Succinct Rank/Select Bitvectors**: Jacobson $o(N)$ summary directories supporting $O(1)$ rank. [`succinct-structures.md`](../14-advanced-data-structures/succinct-data-structures.md)
 - **Suffix Automaton (SAM)**: Minimal directed acyclic word graph encoding all string substrings. [`suffix-automaton.md`](../11-strings-text-and-pattern-matching/suffix-automaton.md)
 
 ### T
@@ -145,10 +145,10 @@ This master index provides:
 - **Treap**: Randomized search tree combining binary search tree keys with heap priorities. [`treaps.md`](../05-trees-and-hierarchical-structures/treaps.md)
 
 ### U
-- **Ukkonen's Algorithm**: Online $O(N)$ linear-time suffix tree construction. [`ukkonen-suffix-tree.md`](../11-strings-text-and-pattern-matching/ukkonen-suffix-tree.md)
+- **Ukkonen's Algorithm**: Online $O(N)$ linear-time suffix tree construction. [`ukkonen-suffix-tree.md`](../11-strings-text-and-pattern-matching/suffix-tree.md)
 
 ### V
-- **van Emde Boas Tree**: Predecessor and successor queries in $O(\log \log U)$ time. [`van-emde-boas-tree.md`](../14-advanced-data-structures/van-emde-boas-tree.md)
+- **van Emde Boas Tree**: Predecessor and successor queries in $O(\log \log U)$ time. [`van-emde-boas-tree.md`](../14-advanced-data-structures/van-emde-boas-trees.md)
 - **Vector Clocks**: Partial order causality tracking and concurrent divergence resolution. [`distributed-state-engines.md`](../18-systems-case-studies/distributed-state-engines.md)
 
 ### W

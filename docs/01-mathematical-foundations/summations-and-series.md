@@ -180,9 +180,9 @@ Maintains a separate running compensation variable `c` for lost low-order bits:
 
 ```mermaid
 sequenceDiagram
-    participant Val as Next Term (x)
-    participant Comp as Lost Bits Buffer (c)
-    participant Sum as Running Total (sum)
+    participant Val as "Next Term (x)"
+    participant Comp as "Lost Bits Buffer (c)"
+    participant Sum as "Running Total (sum)"
 
     Val->>Comp: y = x - c (recover lost precision)
     Note over Comp,Sum: t = sum + y (perform high-order sum)

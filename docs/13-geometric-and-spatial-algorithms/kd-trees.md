@@ -96,7 +96,7 @@ sequenceDiagram
     autonumber
     participant Q as Query Client
     participant T as KD-Tree Traversal
-    participant H as Max-Heap (Best k Candidates)
+    participant H as "Max-Heap (Best k Candidates)"
 
     Q->>T: kNearestNeighbors(target, k)
     T->>T: Evaluate distance d(node.point, target)

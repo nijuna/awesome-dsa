@@ -40,7 +40,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ## 3. Domain-by-Domain Curated Problem Mapping
 
 ### 3.1 Linear Structures, Two Pointers & Monotonic Stacks
-*Relevant Chapters*: [`arrays-and-memory-layout.md`](../04-linear-data-structures/arrays-and-memory-layout.md), [`monotonic-queue-and-stack.md`](../04-linear-data-structures/monotonic-queue-and-stack.md), [`two-pointers.md`](../19-problem-solving-patterns/two-pointers.md), [`sliding-window.md`](../19-problem-solving-patterns/sliding-window.md).
+*Relevant Chapters*: [`arrays-and-memory-layout.md`](../04-linear-data-structures/arrays-and-memory-layout.md), [`monotonic-queue-and-stack.md`](../19-problem-solving-patterns/monotonic-stack-and-queue.md), [`two-pointers.md`](../19-problem-solving-patterns/two-pointers.md), [`sliding-window.md`](../19-problem-solving-patterns/sliding-window.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.2 Trees, Hierarchies & Disjoint-Set Union (DSU)
-*Relevant Chapters*: [`binary-search-trees.md`](../05-trees-and-hierarchical-structures/binary-search-trees.md), [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-flattening-and-euler-tour.md), [`disjoint-set-union.md`](../04-linear-data-structures/disjoint-set-union.md).
+*Relevant Chapters*: [`binary-search-trees.md`](../05-trees-and-hierarchical-structures/binary-search-trees.md), [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-basics-and-traversals.md), [`disjoint-set-union.md`](../04-linear-data-structures/disjoint-set-union.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -69,7 +69,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.3 Graph Algorithms, Shortest Paths & Maximum Flow
-*Relevant Chapters*: [`dijkstra.md`](../08-graphs-and-network-algorithms/dijkstra.md), [`tarjan-scc.md`](../08-graphs-and-network-algorithms/tarjan-scc.md), [`dinic.md`](../08-graphs-and-network-algorithms/dinic.md), [`push-relabel.md`](../08-graphs-and-network-algorithms/push-relabel.md).
+*Relevant Chapters*: [`dijkstra.md`](../08-graphs-and-network-algorithms/shortest-paths.md), [`tarjan-scc.md`](../08-graphs-and-network-algorithms/strongly-connected-components.md), [`dinic.md`](../08-graphs-and-network-algorithms/network-flow-and-push-relabel.md), [`push-relabel.md`](../08-graphs-and-network-algorithms/network-flow-and-push-relabel.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -85,7 +85,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.4 Dynamic Programming & Advanced Optimizations
-*Relevant Chapters*: [`bitmask-dp.md`](../10-dynamic-programming/bitmask-dp.md), [`tree-dp.md`](../10-dynamic-programming/tree-dp.md), [`convex-hull-trick.md`](../10-dynamic-programming/convex-hull-trick.md), [`knuth-and-divide-and-conquer-optimization.md`](../10-dynamic-programming/knuth-and-divide-and-conquer-optimization.md).
+*Relevant Chapters*: [`bitmask-dp.md`](../10-dynamic-programming/bitmask-and-state-compression.md), [`tree-dp.md`](../10-dynamic-programming/tree-dp.md), [`convex-hull-trick.md`](../13-geometric-and-spatial-algorithms/convex-hull.md), [`knuth-and-divide-and-conquer-optimization.md`](../09-algorithm-design-paradigms/divide-and-conquer.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.5 Range Queries, Fenwick & Segment Trees
-*Relevant Chapters*: [`fenwick-tree.md`](../12-range-query-and-offline-structures/fenwick-tree.md), [`segment-tree.md`](../12-range-query-and-offline-structures/segment-tree.md), [`heavy-light-decomposition.md`](../12-range-query-and-offline-structures/heavy-light-decomposition.md), [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-and-cdq-divide-and-conquer.md).
+*Relevant Chapters*: [`fenwick-tree.md`](../05-trees-and-hierarchical-structures/fenwick-trees.md), [`segment-tree.md`](../05-trees-and-hierarchical-structures/segment-trees.md), [`heavy-light-decomposition.md`](../08-graphs-and-network-algorithms/lowest-common-ancestor.md), [`mo-and-cdq-divide-and-conquer.md`](../12-range-query-and-offline-structures/mo-algorithm.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -117,7 +117,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.6 String Algorithms, Suffix Structures & Automata
-*Relevant Chapters*: [`knuth-morris-pratt.md`](../11-strings-text-and-pattern-matching/knuth-morris-pratt.md), [`aho-corasick.md`](../11-strings-text-and-pattern-matching/aho-corasick.md), [`ukkonen-suffix-tree.md`](../11-strings-text-and-pattern-matching/ukkonen-suffix-tree.md), [`suffix-automaton.md`](../11-strings-text-and-pattern-matching/suffix-automaton.md).
+*Relevant Chapters*: [`knuth-morris-pratt.md`](../11-strings-text-and-pattern-matching/prefix-function-and-kmp.md), [`aho-corasick.md`](../11-strings-text-and-pattern-matching/aho-corasick.md), [`ukkonen-suffix-tree.md`](../11-strings-text-and-pattern-matching/suffix-tree.md), [`suffix-automaton.md`](../11-strings-text-and-pattern-matching/suffix-automaton.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |
@@ -133,7 +133,7 @@ This chapter provides a **comprehensive curriculum cross-referencing this reposi
 ---
 
 ### 3.7 Computational Geometry & Spatial Search
-*Relevant Chapters*: [`convex-hull.md`](../13-geometric-and-spatial-algorithms/convex-hull.md), [`line-sweep.md`](../13-geometric-and-spatial-algorithms/line-sweep.md), [`k-d-trees.md`](../13-geometric-and-spatial-algorithms/k-d-trees.md).
+*Relevant Chapters*: [`convex-hull.md`](../13-geometric-and-spatial-algorithms/convex-hull.md), [`line-sweep.md`](../13-geometric-and-spatial-algorithms/line-sweep.md), [`k-d-trees.md`](../13-geometric-and-spatial-algorithms/kd-trees.md).
 
 | Platform | Problem Name | Core Mechanism Tested | Difficulty |
 | :--- | :--- | :--- | :--- |

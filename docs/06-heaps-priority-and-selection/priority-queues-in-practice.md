@@ -90,7 +90,8 @@ Key Empirical Discoveries:
 1. 8-ary Heap achieves 4.9x faster insert than std::priority_queue (7.80 ms vs 38.54 ms).
 2. 4-ary Heap is the fastest steady-state engine (125.96 ns/cycle vs 207.27 ns/cycle).
 3. Pairing Heap melds 1,000 heaps in 30 microseconds (62,398x faster than contiguous array heaps).
-4. Indexed 4-ary Heap is ~3.8x faster than Pairing Heap on Dijkstra relaxations, despite Pairing Heap's O(1) theoretical advantage.
+4. Indexed 4-ary Heap is ~3.8x faster than Pairing Heap on Dijkstra relaxations,
+   despite Pairing Heap's O(1) theoretical advantage.
 ```
 
 ---
@@ -334,8 +335,10 @@ Current Tick Pointer ----> [ Slot 0 ] -> [ Timer A ] -> [ Timer B ]
 
 ```
 Rule of Thumb:
-- Use a Heap when: Deadlines span a massive, unpredictable dynamic range (microseconds to days) and require strict, exact nanosecond ordering.
-- Use a Timer Wheel when: Timers are high-frequency, short-lived, bucketable into discrete intervals, and cancellation must be O(1).
+- Use a Heap when: Deadlines span a massive, unpredictable dynamic range
+  (microseconds to days) and require strict, exact nanosecond ordering.
+- Use a Timer Wheel when: Timers are high-frequency, short-lived, bucketable
+  into discrete intervals, and cancellation must be O(1).
 ```
 
 ---

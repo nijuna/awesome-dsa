@@ -47,7 +47,7 @@ flowchart TD
 - **Goal**: Understand memory addresses, cache lines, and how to measure algorithmic growth.
 - **Key Chapters to Read**:
   - [`arrays-and-memory-layout.md`](../04-linear-data-structures/arrays-and-memory-layout.md)
-  - [`asymptotic-notation.md`](../02-analysis-and-complexity/asymptotic-notation.md)
+  - [`asymptotic-notation.md`](../02-analysis-and-complexity/asymptotic-analysis.md)
   - [`theoretical-vs-practical-performance.md`](../22-benchmarking-and-tradeoffs/theoretical-vs-practical-performance.md)
 - **Hands-On Exercises**:
   1. Implement a static fixed-size array in C++ and print memory addresses of adjacent elements to observe contiguous byte spacing.
@@ -58,7 +58,7 @@ flowchart TD
 ### Milestone 2: Core Linear Data Structures
 - **Goal**: Master pointer-based manipulation and basic LIFO/FIFO disciplines.
 - **Key Chapters to Read**:
-  - [`singly-and-doubly-linked-lists.md`](../04-linear-data-structures/singly-and-doubly-linked-lists.md)
+  - [`singly-and-doubly-linked-lists.md`](../04-linear-data-structures/linked-lists.md)
   - [`stacks-and-queues.md`](../04-linear-data-structures/stacks-and-queues.md)
   - [`two-pointers.md`](../19-problem-solving-patterns/two-pointers.md)
 - **Hands-On Exercises**:
@@ -72,7 +72,7 @@ flowchart TD
 - **Goal**: Understand recursive problem reduction and logarithmic search spaces.
 - **Key Chapters to Read**:
   - [`divide-and-conquer.md`](../09-algorithm-design-paradigms/divide-and-conquer.md)
-  - [`binary-search-and-variants.md`](../09-algorithm-design-paradigms/binary-search-and-variants.md)
+  - [`binary-search-and-variants.md`](../19-problem-solving-patterns/binary-search-on-answer.md)
   - [`quicksort-and-mergesort.md`](../09-algorithm-design-paradigms/divide-and-conquer.md)
 - **Hands-On Exercises**:
   1. Implement exact-match Binary Search and prove why `mid = low + (high - low) / 2` avoids integer overflow.
@@ -85,7 +85,7 @@ flowchart TD
 - **Goal**: Master recursive traversals and binary search tree invariants.
 - **Key Chapters to Read**:
   - [`binary-search-trees.md`](../05-trees-and-hierarchical-structures/binary-search-trees.md)
-  - [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-flattening-and-euler-tour.md)
+  - [`tree-flattening-and-euler-tour.md`](../05-trees-and-hierarchical-structures/tree-basics-and-traversals.md)
 - **Hands-On Exercises**:
   1. Implement Pre-order, In-order, and Post-order tree traversals both recursively and iteratively using a stack.
   2. Implement a Binary Search Tree supporting `insert`, `search`, and `delete` (with in-order successor splicing).
@@ -97,7 +97,7 @@ flowchart TD
 - **Goal**: Understand average $O(1)$ key lookup and hash collision resolution.
 - **Key Chapters to Read**:
   - [`hash-functions.md`](../07-hashing-randomization-and-probabilistic/hash-functions.md)
-  - [`chaining-and-open-addressing.md`](../07-hashing-randomization-and-probabilistic/chaining-and-open-addressing.md)
+  - [`chaining-and-open-addressing.md`](../07-hashing-randomization-and-probabilistic/hash-tables-and-collisions.md)
 - **Hands-On Exercises**:
   1. Build a basic hash map from scratch using separate chaining with linked lists.
   2. Solve LeetCode 1 (Two Sum) in $O(N)$ time using a hash map.
@@ -109,8 +109,8 @@ flowchart TD
 - **Goal**: Model real-world networks and execute graph reachability and shortest paths.
 - **Key Chapters to Read**:
   - [`graph-representations.md`](../08-graphs-and-network-algorithms/graph-representations.md)
-  - [`bfs-and-dfs.md`](../08-graphs-and-network-algorithms/bfs-and-dfs.md)
-  - [`dijkstra.md`](../08-graphs-and-network-algorithms/dijkstra.md)
+  - [`bfs-and-dfs.md`](../08-graphs-and-network-algorithms/bfs-dfs-and-traversal-patterns.md)
+  - [`dijkstra.md`](../08-graphs-and-network-algorithms/shortest-paths.md)
 - **Hands-On Exercises**:
   1. Represent a directed graph using an adjacency list.
   2. Implement Breadth-First Search (BFS) to find the shortest path in an unweighted grid (LeetCode 1091: Shortest Path in Binary Matrix).
@@ -121,8 +121,8 @@ flowchart TD
 ### Milestone 7: Foundations of Dynamic Programming
 - **Goal**: Overcome the fear of DP by mastering optimal substructure and overlapping subproblems.
 - **Key Chapters to Read**:
-  - [`intro-to-dp.md`](../10-dynamic-programming/intro-to-dp.md)
-  - [`0-1-knapsack.md`](../10-dynamic-programming/0-1-knapsack.md)
+  - [`intro-to-dp.md`](../09-algorithm-design-paradigms/dynamic-programming-intuition.md)
+  - [`0-1-knapsack.md`](../10-dynamic-programming/knapsack-family.md)
 - **Hands-On Exercises**:
   1. Transition from naive recursive Fibonacci $O(2^N)$ to memoized DP $O(N)$, then to tabulated DP with $O(1)$ space.
   2. Solve the 0-1 Knapsack problem and trace the 2D DP table.

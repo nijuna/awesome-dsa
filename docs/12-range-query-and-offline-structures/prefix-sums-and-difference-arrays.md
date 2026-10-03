@@ -28,7 +28,7 @@ related_topics: ["Sparse Tables", "Fenwick Tree", "Segment Tree", "Offline Query
 > [!WARNING]
 > **Critical Implementation Traps & Invariants:**
 > 1. **Integer Overflow Mandate:** Prefix accumulations can rapidly overflow 32-bit signed integers (e.g., $10^5 \times 10^9 = 10^{14}$). Always use 64-bit integers (`long long` in C++, `int64` in systems languages) for prefix and difference arrays.
-> 2. **Online vs. Offline Boundaries:** Difference arrays **do not support interleaved online queries**. If updates and queries alternate arbitrarily, use a dynamic tree structure like a [Fenwick Tree](../08-trees-and-hierarchical-structures/fenwick-tree.md) or [Segment Tree](../08-trees-and-hierarchical-structures/segment-tree.md).
+> 2. **Online vs. Offline Boundaries:** Difference arrays **do not support interleaved online queries**. If updates and queries alternate arbitrarily, use a dynamic tree structure like a [Fenwick Tree](../05-trees-and-hierarchical-structures/fenwick-trees.md) or [Segment Tree](../05-trees-and-hierarchical-structures/segment-trees.md).
 > 3. **The Leading-Zero Convention:** Always allocate prefix arrays with size $n + 1$ and set $pref[0] = 0$. Querying range $[l, r]$ then simplifies to $pref[r+1] - pref[l]$ without special branching for $l = 0$.
 > 4. **2D Inclusion-Exclusion Sign Discipline:**
 >    - *Querying 2D Sums:* $+ \text{bottom-right} - \text{top-strip} - \text{left-strip} + \text{top-left-overlap}$.
