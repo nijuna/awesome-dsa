@@ -190,7 +190,7 @@ Legend:
 - [x] [`work-stealing-deques.md`](docs/16-parallel-concurrent-and-lock-free/work-stealing-deques.md)
 
 ### [17] Cryptographic & Merkle Structures
-- [ ] `merkle-trees.md`
+- [x] [`merkle-trees.md`](docs/17-cryptographic-and-merkle-like-structures/merkle-trees.md)
 - [ ] `authenticated-data-structures.md`
 
 ### [18] Systems Case Studies
