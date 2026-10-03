@@ -196,7 +196,7 @@ Legend:
 ### [18] Systems Case Studies
 - [x] [`storage-engines-breakdown.md`](docs/18-systems-case-studies/storage-engines-breakdown.md)
 - [x] [`linux-kernel-internals.md`](docs/18-systems-case-studies/linux-kernel-internals.md)
-- [ ] `high-performance-caching.md`
+- [x] [`high-performance-caching.md`](docs/18-systems-case-studies/high-performance-caching.md)
 - [ ] `distributed-state-engines.md`
 
 ### [20] Proof Techniques & Correctness
