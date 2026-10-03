@@ -1,0 +1,27 @@
+name: Errata or Technical Issue
+description: Report a bug in an implementation, mathematical error in a proof, or broken reference.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping keep **The DSA Handbook** mathematically precise and mechanically verified!
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter or File
+      description: Which chapter or code file does this issue affect? (e.g. `docs/05-trees-and-hierarchical-structures/avl-and-red-black-trees.md`)
+      placeholder: docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Description of the Error
+      description: Describe the inaccuracy, failing test case, compilation error, or broken invariant.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Correction
+      description: If you have a proposed fix or mathematical clarification, share it here.

@@ -1,0 +1,28 @@
+name: Topic or Horizon Proposal
+description: Propose a new algorithm, data structure, or research frontier chapter.
+labels: ["enhancement", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: Proposals should align with the handbook's focus on formal invariants, hardware modeling, and systems application.
+  - type: input
+    id: topic_title
+    attributes:
+      label: Proposed Topic
+      placeholder: "e.g. Learned Bloom Filters, FAST-FAIR NVM Tree, DiskANN"
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Technical Motivation & Systems Relevance
+      description: Why does this topic belong in The DSA Handbook? What engineering or academic tradeoffs does it illustrate?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Primary Academic References
+      description: List seminal research papers, textbooks, or reference implementations.
+    validations:
+      required: true

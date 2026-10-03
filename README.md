@@ -3,6 +3,13 @@
 
 > An exhaustive, academically rigorous open reference manual for learning, verifying, and implementing data structures and algorithms — from discrete mathematical foundations and formal invariants to modern CPU cache modeling, lock-free concurrency, and distributed state machines.
 
+[![CI](https://github.com/nijuna/dsa-handbook/actions/workflows/ci.yml/badge.svg)](https://github.com/nijuna/dsa-handbook/actions/workflows/ci.yml)
+[![Chapters](https://img.shields.io/badge/Chapters-154%20Verified-blue.svg)](ROADMAP.md)
+[![Python Tests](https://img.shields.io/badge/Python%20Tests-455%20Passing-brightgreen.svg)](implementations/python)
+[![C++17](https://img.shields.io/badge/C%2B%2B-17%20Verified-00599C.svg?logo=c%2B%2B)](implementations/cpp)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 ---
 
 ## Quick Navigation

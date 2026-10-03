@@ -1,4 +1,4 @@
-name: CI - Verified Implementations
+name: CI - Verification & Test Suites
 
 on:
   push:
@@ -7,8 +7,21 @@ on:
     branches: [main]
 
 jobs:
+  validate-docs:
+    name: Markdown & Syntax Validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate Markdown, LaTeX, and Mermaid Syntax
+        run: |
+          python3 scripts/validate_syntax.py
+
   test-python:
-    name: Python Test Suite
+    name: Python Invariant & Unit Tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -21,7 +34,7 @@ jobs:
           python3 -m unittest discover -s implementations/python -p "*.py"
 
   test-cpp:
-    name: C++17 Test Suite
+    name: C++17 Verification Suite
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
