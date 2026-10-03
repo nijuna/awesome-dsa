@@ -194,7 +194,7 @@ Legend:
 - [x] [`authenticated-data-structures.md`](docs/17-cryptographic-and-merkle-like-structures/authenticated-data-structures.md)
 
 ### [18] Systems Case Studies
-- [ ] `storage-engines-breakdown.md`
+- [x] [`storage-engines-breakdown.md`](docs/18-systems-case-studies/storage-engines-breakdown.md)
 - [ ] `linux-kernel-internals.md`
 - [ ] `high-performance-caching.md`
 - [ ] `distributed-state-engines.md`
