@@ -191,7 +191,7 @@ Legend:
 
 ### [17] Cryptographic & Merkle Structures
 - [x] [`merkle-trees.md`](docs/17-cryptographic-and-merkle-like-structures/merkle-trees.md)
-- [ ] `authenticated-data-structures.md`
+- [x] [`authenticated-data-structures.md`](docs/17-cryptographic-and-merkle-like-structures/authenticated-data-structures.md)
 
 ### [18] Systems Case Studies
 - [ ] `storage-engines-breakdown.md`
