@@ -216,8 +216,8 @@ Legend:
 - [x] [`choosing-the-right-data-structure.md`](docs/22-benchmarking-and-tradeoffs/choosing-the-right-data-structure.md)
 
 ### [23] Classics & Papers
-- [ ] `classic-papers-reading-list.md`
-- [ ] `landmark-data-structures.md`
+- [x] [`classic-papers-reading-list.md`](docs/23-history-papers-and-classics/classic-papers-reading-list.md)
+- [x] [`landmark-data-structures.md`](docs/23-history-papers-and-classics/landmark-data-structures.md)
 
 ### [24] Exercises & Problem Sets
 - [ ] `topic-index.md`
