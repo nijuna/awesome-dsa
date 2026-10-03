@@ -1,6 +1,6 @@
-# Awesome DSA Style Guide & Contribution Contract
+# The DSA Handbook Style Guide & Quality Standards
 
-To maintain the highest standards of clarity, visual intuition, and academic rigor, all content added to **Awesome DSA** must adhere to this style guide.
+To maintain the highest standards of clarity, visual intuition, and academic rigor, all content in **The DSA Handbook** must adhere to this style guide.
 
 ---
 

@@ -10,7 +10,7 @@ related_topics: ["Contest and Interview Mapping", "Roadmap", "Classic Papers Rea
 
 ## 1. Executive Summary & Repository Organization
 
-The **Awesome-DSA** repository is an exhaustive, publication-grade knowledge base encompassing **154 topics** across **25 specialized domains**. Every chapter adheres to strict formal standards: mathematical definitions, formal invariants, ASCII/Mermaid layout diagrams, asymptotic complexity derivations, dual C++17 and Python 3 reference implementations, and differential test suites.
+The **DSA Handbook** repository is an exhaustive, publication-grade knowledge base encompassing **154 topics** across **25 specialized domains**. Every chapter adheres to strict formal standards: mathematical definitions, formal invariants, ASCII/Mermaid layout diagrams, asymptotic complexity derivations, dual C++17 and Python 3 reference implementations, and differential test suites.
 
 This master index provides:
 1. **Alphabetical Concept Index**: Rapid lookup of data structures, algorithms, theorems, and mechanisms.

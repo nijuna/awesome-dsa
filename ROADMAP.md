@@ -1,6 +1,6 @@
-# Awesome DSA Master Roadmap & Completion Matrix
+# The DSA Handbook Master Roadmap & Completion Matrix
 
-This roadmap tracks the development of **Awesome DSA** across its 24 core knowledge domains and 3 implementation phases.
+This roadmap tracks the development of **The DSA Handbook** across its 25 core knowledge domains and verified implementation phases.
 
 Legend:
 * [x] **Complete**: Exhaustive coverage matching the 12-section standard.
