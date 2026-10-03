@@ -33,12 +33,12 @@ Legend:
 ### [02] Analysis & Complexity
 - [x] [`asymptotic-analysis.md`](docs/02-analysis-and-complexity/asymptotic-analysis.md)
 - [x] [`amortized-analysis.md`](docs/02-analysis-and-complexity/amortized-analysis.md)
-- [ ] `worst-average-smoothed-analysis.md`
-- [ ] `lower-bounds-and-adversaries.md`
-- [ ] `reductions-and-hardness-intuition.md`
+- [x] [`worst-average-smoothed-analysis.md`](docs/02-analysis-and-complexity/worst-average-smoothed-analysis.md)
+- [x] [`lower-bounds-and-adversaries.md`](docs/02-analysis-and-complexity/lower-bounds-and-adversaries.md)
+- [x] [`reductions-and-hardness-intuition.md`](docs/02-analysis-and-complexity/reductions-and-hardness-intuition.md)
 - [x] [`master-theorem-and-beyond.md`](docs/02-analysis-and-complexity/master-theorem-and-beyond.md)
-- [ ] `akra-bazzi-method.md`
-- [ ] `randomized-analysis.md`
+- [x] [`akra-bazzi-method.md`](docs/02-analysis-and-complexity/akra-bazzi-method.md)
+- [x] [`randomized-analysis.md`](docs/02-analysis-and-complexity/randomized-analysis.md)
 
 ### [03] Machine Model & Performance
 - [x] [`ram-model-vs-real-machines.md`](docs/03-machine-model-and-performance/ram-model-vs-real-machines.md)
