@@ -220,5 +220,5 @@ Legend:
 - [x] [`landmark-data-structures.md`](docs/23-history-papers-and-classics/landmark-data-structures.md)
 
 ### [24] Exercises & Problem Sets
-- [ ] `topic-index.md`
-- [ ] `contest-and-interview-mapping.md`
+- [x] [`topic-index.md`](docs/24-exercises-and-curated-problems/topic-index.md)
+- [x] [`contest-and-interview-mapping.md`](docs/24-exercises-and-curated-problems/contest-and-interview-mapping.md)
