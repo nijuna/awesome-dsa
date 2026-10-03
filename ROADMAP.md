@@ -25,10 +25,10 @@ Legend:
 - [x] [`recurrence-relations.md`](docs/01-mathematical-foundations/recurrence-relations.md)
 - [x] [`combinatorics.md`](docs/01-mathematical-foundations/combinatorics.md)
 - [x] [`probability-basics.md`](docs/01-mathematical-foundations/probability-basics.md)
-- [ ] `expected-value-and-random-variables.md`
-- [ ] `generating-functions-intuition.md`
+- [x] [`expected-value-and-random-variables.md`](docs/01-mathematical-foundations/expected-value-and-random-variables.md)
+- [x] [`generating-functions-intuition.md`](docs/01-mathematical-foundations/generating-functions-intuition.md)
 - [x] [`number-theory-basics.md`](docs/01-mathematical-foundations/number-theory-basics.md)
-- [ ] `linear-algebra-for-algorithms.md`
+- [x] [`linear-algebra-for-algorithms.md`](docs/01-mathematical-foundations/linear-algebra-for-algorithms.md)
 
 ### [02] Analysis & Complexity
 - [x] [`asymptotic-analysis.md`](docs/02-analysis-and-complexity/asymptotic-analysis.md)
